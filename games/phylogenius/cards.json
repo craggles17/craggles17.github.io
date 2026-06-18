@@ -99,7 +99,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "Wearing your skeleton on the outside",
           "prereqIds": [
             "S02"
           ],
@@ -122,7 +122,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "The flexible rod that gave vertebrates their backbone blueprint",
           "prereqIds": [
             "S02"
           ],
@@ -147,7 +147,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "Segmented protection that built the vertebrate body plan",
           "prereqIds": [
             "S04"
           ],
@@ -196,7 +196,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "Calcium phosphate scaffolding that outlasts the soft parts",
           "prereqIds": [
             "S05"
           ],
@@ -219,7 +219,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "The muscular paddles that became legs",
           "prereqIds": [
             "S07"
           ],
@@ -244,7 +244,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "The tetrapod toolkit for conquering land",
           "prereqIds": [
             "S08"
           ],
@@ -267,7 +267,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "Evolution counted to five and stopped there",
           "prereqIds": [
             "S09"
           ],
@@ -290,7 +290,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "A breathing cage that protects the vital organs",
           "prereqIds": [
             "S05"
           ],
@@ -313,7 +313,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "The slowest tank in nature",
           "prereqIds": [
             "S11"
           ],
@@ -336,7 +336,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "Lightweight engineering for flight",
           "prereqIds": [
             "S07"
           ],
@@ -359,7 +359,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "Headgear for status and combat",
           "prereqIds": [],
           "enableIds": []
         },
@@ -380,7 +380,7 @@
             "secondary": "#FFFAF0",
             "icon": "🦴"
           },
-          "flavour": "",
+          "flavour": "The grasp that changed everything",
           "prereqIds": [
             "S10"
           ],
@@ -920,7 +920,7 @@
             "secondary": "#FFC0CB",
             "icon": "🥚"
           },
-          "flavour": "",
+          "flavour": "A private pond for developing on land",
           "prereqIds": [
             "R04"
           ],
@@ -989,7 +989,7 @@
             "secondary": "#FFC0CB",
             "icon": "🥚"
           },
-          "flavour": "",
+          "flavour": "The milk factory that defines mammals",
           "prereqIds": [
             "R08"
           ],
@@ -1194,7 +1194,7 @@
             "secondary": "#FFB347",
             "icon": "🔥"
           },
-          "flavour": "",
+          "flavour": "Complete digestive tract with an exit",
           "prereqIds": [
             "M02"
           ],
@@ -1240,7 +1240,7 @@
             "secondary": "#FFB347",
             "icon": "🔥"
           },
-          "flavour": "",
+          "flavour": "Breathing underwater through delicate filters",
           "prereqIds": [
             "M01"
           ],
@@ -1353,7 +1353,7 @@
             "secondary": "#FFB347",
             "icon": "🔥"
           },
-          "flavour": "",
+          "flavour": "Warm-blooded insulation that mammals perfected",
           "prereqIds": [
             "M09"
           ],
@@ -1376,7 +1376,7 @@
             "secondary": "#FFB347",
             "icon": "🔥"
           },
-          "flavour": "",
+          "flavour": "Insulation first, flight later",
           "prereqIds": [
             "M09"
           ],
@@ -1535,7 +1535,7 @@
             "secondary": "#DDA0DD",
             "icon": "🧠"
           },
-          "flavour": "",
+          "flavour": "Brains concentrated in the front end",
           "prereqIds": [
             "S02"
           ],
@@ -1837,7 +1837,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Life began with these simple, nucleus-free pioneers",
           "prereqIds": [],
           "enableIds": []
         },
@@ -1858,7 +1858,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Complex cells born from ancient symbiosis",
           "prereqIds": [
             "B01"
           ],
@@ -1904,7 +1904,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Working together before specialization",
           "prereqIds": [
             "B03"
           ],
@@ -1927,7 +1927,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "The body plan shaped like a wheel",
           "prereqIds": [
             "B03"
           ],
@@ -1975,7 +1975,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Internal space where organs could develop",
           "prereqIds": [
             "B06"
           ],
@@ -1998,7 +1998,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Repeated body units built for flexibility",
           "prereqIds": [
             "B06"
           ],
@@ -2021,7 +2021,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Brains concentrated in the front end",
           "prereqIds": [
             "B06"
           ],
@@ -2044,7 +2044,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "The flexible rod that gave vertebrates their backbone blueprint",
           "prereqIds": [
             "B06"
           ],
@@ -2092,7 +2092,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Gill slits that mark the chordate lineage",
           "prereqIds": [
             "B10"
           ],
@@ -2141,7 +2141,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "Segmented protection that built the vertebrate body plan",
           "prereqIds": [
             "B10"
           ],
@@ -2187,7 +2187,7 @@
             "secondary": "#7986CB",
             "icon": "🌀"
           },
-          "flavour": "",
+          "flavour": "A breathing cage that protects the vital organs",
           "prereqIds": [
             "B14"
           ],
@@ -2254,7 +2254,7 @@
             "secondary": "#C0C0C0",
             "icon": "?"
           },
-          "flavour": "",
+          "flavour": "Tiny mineral needles for structural support",
           "prereqIds": [
             "A02"
           ],
@@ -2325,7 +2325,7 @@
             "secondary": "#C0C0C0",
             "icon": "?"
           },
-          "flavour": "",
+          "flavour": "Wearing your skeleton on the outside",
           "prereqIds": [
             "A04"
           ],
@@ -2689,7 +2689,7 @@
             "secondary": "#4DB6AC",
             "icon": "🌊"
           },
-          "flavour": "",
+          "flavour": "Hydraulic walking powered by water pressure",
           "prereqIds": [
             "B07"
           ],
@@ -2735,7 +2735,7 @@
             "secondary": "#4DB6AC",
             "icon": "🌊"
           },
-          "flavour": "",
+          "flavour": "The muscular paddles that became legs",
           "prereqIds": [
             "L09"
           ],
@@ -2760,7 +2760,7 @@
             "secondary": "#4DB6AC",
             "icon": "🌊"
           },
-          "flavour": "",
+          "flavour": "The tetrapod toolkit for conquering land",
           "prereqIds": [
             "L10"
           ],
@@ -2875,7 +2875,7 @@
             "secondary": "#EF5350",
             "icon": "🦷"
           },
-          "flavour": "",
+          "flavour": "Harvesting tiny food from water currents",
           "prereqIds": [
             "L02"
           ],
@@ -2944,7 +2944,7 @@
             "secondary": "#EF5350",
             "icon": "🦷"
           },
-          "flavour": "",
+          "flavour": "Complete digestive tract with an exit",
           "prereqIds": [
             "F04"
           ],
@@ -3524,7 +3524,7 @@
             "secondary": "#FFAB91",
             "icon": "🥚"
           },
-          "flavour": "",
+          "flavour": "A private pond for developing on land",
           "prereqIds": [
             "P06"
           ],
@@ -3618,7 +3618,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "The most common color vision deficiency",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3660,7 +3660,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "Four cone types instead of three",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3681,7 +3681,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "Bitter compounds taste intensely strong",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3702,7 +3702,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "Missing the bitter taste receptor",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3723,7 +3723,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "When herbs taste like dish detergent",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3744,7 +3744,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "The nose knows what you just ate",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3765,7 +3765,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "Bright light triggers the sneeze reflex",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3828,7 +3828,7 @@
             "secondary": "#87CEEB",
             "icon": "👁"
           },
-          "flavour": "",
+          "flavour": "The rare ability to identify any note instantly",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3975,7 +3975,7 @@
             "secondary": "#90EE90",
             "icon": "🍽"
           },
-          "flavour": "",
+          "flavour": "The ancestral default after weaning",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4353,7 +4353,7 @@
             "secondary": "#FFB347",
             "icon": "⚡"
           },
-          "flavour": "",
+          "flavour": "Fast-twitch muscle fiber advantage",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4542,7 +4542,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "",
+          "flavour": "The sticky kind that requires cotton swabs",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4563,7 +4563,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "",
+          "flavour": "The flaky kind that falls out on its own",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4584,7 +4584,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "",
+          "flavour": "Clustered melanin dots from sun exposure",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4626,7 +4626,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "",
+          "flavour": "The V-shaped hairline pointing down",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4647,7 +4647,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "",
+          "flavour": "Earlobes that connect directly to the head",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4668,7 +4668,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "",
+          "flavour": "The dimple in the middle of the chin",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4689,7 +4689,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "",
+          "flavour": "A facial muscle variation that creates indents",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4710,7 +4710,7 @@
             "secondary": "#FFB6C1",
             "icon": "✨"
           },
-          "flavour": "A single mutation, 10,000 years ago",
+          "flavour": "A single founder mutation spread from the Black Sea",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4878,7 +4878,7 @@
             "secondary": "#DDA0DD",
             "icon": "🧠"
           },
-          "flavour": "",
+          "flavour": "Natural circadian preference for early rising",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4899,7 +4899,7 @@
             "secondary": "#DDA0DD",
             "icon": "🧠"
           },
-          "flavour": "",
+          "flavour": "Genetic tendency toward late sleep schedules",
           "prereqIds": [],
           "enableIds": []
         },
