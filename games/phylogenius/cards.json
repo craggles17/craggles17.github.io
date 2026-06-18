@@ -1,0 +1,5497 @@
+{
+  "decks": {
+    "evo": {
+      "id": "evo",
+      "title": "Universal Evo",
+      "valueType": "mya",
+      "hasPrereqs": true,
+      "suits": {
+        "Structural": {
+          "primary": "#F5F5DC",
+          "secondary": "#FFFAF0",
+          "icon": "🦴"
+        },
+        "Sensory": {
+          "primary": "#1E90FF",
+          "secondary": "#87CEEB",
+          "icon": "👁"
+        },
+        "Reproductive": {
+          "primary": "#FFB6C1",
+          "secondary": "#FFC0CB",
+          "icon": "🥚"
+        },
+        "Metabolic": {
+          "primary": "#FF8C00",
+          "secondary": "#FFB347",
+          "icon": "🔥"
+        },
+        "Neural": {
+          "primary": "#8B008B",
+          "secondary": "#DDA0DD",
+          "icon": "🧠"
+        },
+        "Special": {
+          "primary": "#FFD700",
+          "secondary": "#FFF176",
+          "icon": "⚡"
+        }
+      },
+      "cards": [
+        {
+          "id": "S01",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Multicellularity",
+          "suit": "Structural",
+          "mya": 600,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "-",
+          "enables": "Tissues",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "Stronger together",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S02",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Bilateral Symmetry",
+          "suit": "Structural",
+          "mya": 555,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "Multicellularity",
+          "enables": "Head/tail axis",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "Left and right: the original design upgrade",
+          "prereqIds": [
+            "S01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S03",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Exoskeleton",
+          "suit": "Structural",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Bilateral",
+          "enables": "Arthropod radiation",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S04",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Notochord",
+          "suit": "Structural",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟",
+          "prereq": "Bilateral",
+          "enables": "Vertebral column",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S02"
+          ],
+          "enableIds": [
+            "S05"
+          ]
+        },
+        {
+          "id": "S05",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Vertebral Column",
+          "suit": "Structural",
+          "mya": 480,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟",
+          "prereq": "Notochord",
+          "enables": "Jaws, Limbs",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S04"
+          ],
+          "enableIds": [
+            "S06",
+            "S09"
+          ]
+        },
+        {
+          "id": "S06",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Jaws",
+          "suit": "Structural",
+          "mya": 430,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Vertebrae",
+          "enables": "Teeth, Predation",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "Finally, a proper bite",
+          "prereqIds": [
+            "S05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S07",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Bony Skeleton",
+          "suit": "Structural",
+          "mya": 420,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Vertebrae",
+          "enables": "Limb bones",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S08",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Lobed Fins",
+          "suit": "Structural",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Bony skeleton",
+          "enables": "Limbs",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S07"
+          ],
+          "enableIds": [
+            "S09"
+          ]
+        },
+        {
+          "id": "S09",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Four Limbs",
+          "suit": "Structural",
+          "mya": 375,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦎",
+          "prereq": "Lobed fins",
+          "enables": "Terrestrial movement",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S10",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Digits (Fingers/Toes)",
+          "suit": "Structural",
+          "mya": 365,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🦎",
+          "prereq": "Four limbs",
+          "enables": "Grasping",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S11",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Ribcage",
+          "suit": "Structural",
+          "mya": 340,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🦎",
+          "prereq": "Vertebrae",
+          "enables": "Lung protection",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S12",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Shell (Turtle)",
+          "suit": "Structural",
+          "mya": 220,
+          "era": "TRI",
+          "eraColor": "#FF7043",
+          "clade": "🦎🌿",
+          "prereq": "Ribcage",
+          "enables": "Defence",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S11"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S13",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Hollow Bones",
+          "suit": "Structural",
+          "mya": 160,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐦",
+          "prereq": "Bony skeleton",
+          "enables": "Flight",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S14",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Antlers/Horns",
+          "suit": "Structural",
+          "mya": 20,
+          "era": "NEO",
+          "eraColor": "#FDD835",
+          "clade": "🐁🌿",
+          "prereq": "Skull",
+          "enables": "Display, Combat",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S15",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Opposable Thumb",
+          "suit": "Structural",
+          "mya": 55,
+          "era": "PAL",
+          "eraColor": "#FDD835",
+          "clade": "🐁",
+          "prereq": "Digits",
+          "enables": "Tool use",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S10"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "S16",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Bipedal Skeleton",
+          "suit": "Structural",
+          "mya": 6,
+          "era": "NEO",
+          "eraColor": "#FDD835",
+          "clade": "🐁",
+          "prereq": "Four limbs",
+          "enables": "Upright walking",
+          "colors": {
+            "primary": "#F5F5DC",
+            "secondary": "#FFFAF0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E01",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Photoreceptor Cells",
+          "suit": "Sensory",
+          "mya": 600,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠🌿",
+          "prereq": "Multicellularity",
+          "enables": "Light detection",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E02",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Camera Eye",
+          "suit": "Sensory",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐟🌿",
+          "prereq": "Photoreceptors",
+          "enables": "Image formation",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "E03",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Compound Eye",
+          "suit": "Sensory",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🌿",
+          "prereq": "Photoreceptors",
+          "enables": "Wide field vision",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "E04",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Lateral Line",
+          "suit": "Sensory",
+          "mya": 500,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟",
+          "prereq": "Bilateral",
+          "enables": "Water pressure sense",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E05",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Electroreception",
+          "suit": "Sensory",
+          "mya": 450,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟🌿",
+          "prereq": "Lateral line",
+          "enables": "Prey detection",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "E04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E06",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Inner Ear (Balance)",
+          "suit": "Sensory",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Skull",
+          "enables": "Orientation",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "E07",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Tongue (Chemosensory)",
+          "suit": "Sensory",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦎",
+          "prereq": "Jaws",
+          "enables": "Taste, Smell assist",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E08",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Eyelids",
+          "suit": "Sensory",
+          "mya": 375,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🦎",
+          "prereq": "Camera eye",
+          "enables": "Eye protection",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "E02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E09",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Jacobson's Organ",
+          "suit": "Sensory",
+          "mya": 300,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🦎",
+          "prereq": "Tongue",
+          "enables": "Pheromone detection",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "E07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E10",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Pit Organs (IR)",
+          "suit": "Sensory",
+          "mya": 150,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🦎🌿",
+          "prereq": "Skull",
+          "enables": "Heat sensing",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "E11",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Echolocation",
+          "suit": "Sensory",
+          "mya": 55,
+          "era": "PAL",
+          "eraColor": "#FDD835",
+          "clade": "🐁🌿",
+          "prereq": "Inner ear",
+          "enables": "Sonar navigation",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "E06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E12",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "External Ears (Pinnae)",
+          "suit": "Sensory",
+          "mya": 160,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐁",
+          "prereq": "Inner ear",
+          "enables": "Sound localisation",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "E06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E13",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Whiskers (Vibrissae)",
+          "suit": "Sensory",
+          "mya": 160,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐁",
+          "prereq": "Hair",
+          "enables": "Touch sensing",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M10"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E14",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Trichromatic Vision",
+          "suit": "Sensory",
+          "mya": 30,
+          "era": "PAL",
+          "eraColor": "#FDD835",
+          "clade": "🐁",
+          "prereq": "Camera eye",
+          "enables": "Colour discrimination",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "E02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E15",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Fovea",
+          "suit": "Sensory",
+          "mya": 25,
+          "era": "NEO",
+          "eraColor": "#FDD835",
+          "clade": "🐁🐦",
+          "prereq": "Camera eye",
+          "enables": "Sharp central vision",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "E02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "E16",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Magnetoreception",
+          "suit": "Sensory",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🐦🌿",
+          "prereq": "Neural tissue",
+          "enables": "Navigation",
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "R01",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Sexual Reproduction",
+          "suit": "Reproductive",
+          "mya": 1200,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "-",
+          "enables": "Genetic diversity",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "R02",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Gamete Dimorphism",
+          "suit": "Reproductive",
+          "mya": 600,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "Sexual reproduction",
+          "enables": "Egg/sperm",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R03",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "External Fertilisation",
+          "suit": "Reproductive",
+          "mya": 500,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟🦑",
+          "prereq": "Gametes",
+          "enables": "Spawning",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R04",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Internal Fertilisation",
+          "suit": "Reproductive",
+          "mya": 385,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦎",
+          "prereq": "Gametes",
+          "enables": "Copulation",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R05",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Copulatory Organs",
+          "suit": "Reproductive",
+          "mya": 385,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦎🌿",
+          "prereq": "Internal fert.",
+          "enables": "Sperm transfer",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R06",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Orgasm",
+          "suit": "Reproductive",
+          "mya": 385,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦎🐁",
+          "prereq": "Copulatory organs",
+          "enables": "Reward mechanism",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R07",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Amniotic Egg",
+          "suit": "Reproductive",
+          "mya": 312,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🦎",
+          "prereq": "Internal fert.",
+          "enables": "Terrestrial eggs",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R08",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Viviparity (Live Birth)",
+          "suit": "Reproductive",
+          "mya": 280,
+          "era": "PER",
+          "eraColor": "#EF5350",
+          "clade": "🦎🐁🌿",
+          "prereq": "Internal fert.",
+          "enables": "Internal development",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R09",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Yolk Sac Placenta",
+          "suit": "Reproductive",
+          "mya": 200,
+          "era": "TRI",
+          "eraColor": "#FF7043",
+          "clade": "🦎🐁",
+          "prereq": "Viviparity",
+          "enables": "Nutrient transfer",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R10",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Mammary Glands",
+          "suit": "Reproductive",
+          "mya": 200,
+          "era": "TRI",
+          "eraColor": "#FF7043",
+          "clade": "🐁",
+          "prereq": "Viviparity",
+          "enables": "Milk production",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R11",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Nipples",
+          "suit": "Reproductive",
+          "mya": 160,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐁",
+          "prereq": "Mammary glands",
+          "enables": "Milk delivery",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R10"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R12",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "True Placenta",
+          "suit": "Reproductive",
+          "mya": 160,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐁",
+          "prereq": "Viviparity",
+          "enables": "Extended gestation",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R13",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Egg Tooth",
+          "suit": "Reproductive",
+          "mya": 250,
+          "era": "PER",
+          "eraColor": "#EF5350",
+          "clade": "🦎🐦🐁",
+          "prereq": "Amniotic egg",
+          "enables": "Hatching",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R14",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Nest Building",
+          "suit": "Reproductive",
+          "mya": 150,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐦🦎🌿",
+          "prereq": "Amniotic egg",
+          "enables": "Offspring protection",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R15",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Menstrual Cycle",
+          "suit": "Reproductive",
+          "mya": 40,
+          "era": "PAL",
+          "eraColor": "#FDD835",
+          "clade": "🐁",
+          "prereq": "True placenta",
+          "enables": "Fertility cycling",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R12"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R16",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Menopause",
+          "suit": "Reproductive",
+          "mya": 5,
+          "era": "NEO",
+          "eraColor": "#FDD835",
+          "clade": "🐁",
+          "prereq": "Menstrual cycle",
+          "enables": "Post-reproductive life",
+          "colors": {
+            "primary": "#FFB6C1",
+            "secondary": "#FFC0CB",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R15"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M01",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Aerobic Respiration",
+          "suit": "Metabolic",
+          "mya": 2000,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "-",
+          "enables": "Oxygen metabolism",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M02",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Digestive Tract",
+          "suit": "Metabolic",
+          "mya": 550,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "Multicellularity",
+          "enables": "Through-gut",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M03",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Anus",
+          "suit": "Metabolic",
+          "mya": 540,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦠",
+          "prereq": "Digestive tract",
+          "enables": "One-way digestion",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M04",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Flatulence Capability",
+          "suit": "Metabolic",
+          "mya": 500,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐟",
+          "prereq": "Anus",
+          "enables": "Gas expulsion",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M05",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Gills",
+          "suit": "Metabolic",
+          "mya": 500,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟🦑",
+          "prereq": "Aerobic",
+          "enables": "Aquatic respiration",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M06",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Swim Bladder",
+          "suit": "Metabolic",
+          "mya": 420,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Gills",
+          "enables": "Buoyancy",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M07",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Lungs",
+          "suit": "Metabolic",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦎",
+          "prereq": "Swim bladder",
+          "enables": "Air breathing",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "Taking the first breath of fresh air",
+          "prereqIds": [
+            "M06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M08",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Four-Chambered Heart",
+          "suit": "Metabolic",
+          "mya": 250,
+          "era": "PER",
+          "eraColor": "#EF5350",
+          "clade": "🦎🐁🐦🌿",
+          "prereq": "Heart",
+          "enables": "Efficient circulation",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M09",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Endothermy (Warm-blood)",
+          "suit": "Metabolic",
+          "mya": 250,
+          "era": "PER",
+          "eraColor": "#EF5350",
+          "clade": "🐁🐦🌿",
+          "prereq": "Four-ch. heart",
+          "enables": "Thermal regulation",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M10",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Hair/Fur",
+          "suit": "Metabolic",
+          "mya": 200,
+          "era": "TRI",
+          "eraColor": "#FF7043",
+          "clade": "🐁",
+          "prereq": "Endothermy",
+          "enables": "Insulation",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M11",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Feathers",
+          "suit": "Metabolic",
+          "mya": 160,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐦",
+          "prereq": "Endothermy",
+          "enables": "Insulation, Flight",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M12",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Sweat Glands",
+          "suit": "Metabolic",
+          "mya": 160,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐁",
+          "prereq": "Endothermy",
+          "enables": "Evaporative cooling",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M13",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Brown Fat",
+          "suit": "Metabolic",
+          "mya": 150,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐁",
+          "prereq": "Endothermy",
+          "enables": "Non-shivering heat",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M14",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Ruminant Digestion",
+          "suit": "Metabolic",
+          "mya": 50,
+          "era": "PAL",
+          "eraColor": "#FDD835",
+          "clade": "🐁🌿",
+          "prereq": "Digestive tract",
+          "enables": "Cellulose breakdown",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M15",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Torpor/Hibernation",
+          "suit": "Metabolic",
+          "mya": 100,
+          "era": "CRE",
+          "eraColor": "#66BB6A",
+          "clade": "🐁🐦🌿",
+          "prereq": "Endothermy",
+          "enables": "Metabolic suppression",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "M09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "M16",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Alcohol Metabolism",
+          "suit": "Metabolic",
+          "mya": 10,
+          "era": "NEO",
+          "eraColor": "#FDD835",
+          "clade": "🐁",
+          "prereq": "Liver",
+          "enables": "Fermented fruit",
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "🔥"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "N01",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Neurons",
+          "suit": "Neural",
+          "mya": 600,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "Multicellularity",
+          "enables": "Signal transmission",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N02",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Cephalisation",
+          "suit": "Neural",
+          "mya": 555,
+          "era": "PRC",
+          "eraColor": "#808080",
+          "clade": "🦠",
+          "prereq": "Bilateral",
+          "enables": "Head/brain",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "S02"
+          ],
+          "enableIds": [
+            "N03"
+          ]
+        },
+        {
+          "id": "N03",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Brain",
+          "suit": "Neural",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟🦑",
+          "prereq": "Cephalisation",
+          "enables": "Central processing",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N04",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Cerebellum",
+          "suit": "Neural",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Brain",
+          "enables": "Motor coordination",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N05",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Sleep",
+          "suit": "Neural",
+          "mya": 450,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟🦑🌿",
+          "prereq": "Brain",
+          "enables": "Neural maintenance",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N06",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "REM Sleep",
+          "suit": "Neural",
+          "mya": 300,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🦎🐁🐦",
+          "prereq": "Sleep",
+          "enables": "Dreaming",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N07",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Limbic System",
+          "suit": "Neural",
+          "mya": 250,
+          "era": "PER",
+          "eraColor": "#EF5350",
+          "clade": "🦎🐁",
+          "prereq": "Brain",
+          "enables": "Emotion",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N08",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Play Behaviour",
+          "suit": "Neural",
+          "mya": 150,
+          "era": "JUR",
+          "eraColor": "#26A69A",
+          "clade": "🐁🐦🌿",
+          "prereq": "Limbic system",
+          "enables": "Learning",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N07"
+          ],
+          "enableIds": [
+            "N11"
+          ]
+        },
+        {
+          "id": "N09",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Neocortex",
+          "suit": "Neural",
+          "mya": 200,
+          "era": "TRI",
+          "eraColor": "#FF7043",
+          "clade": "🐁",
+          "prereq": "Brain",
+          "enables": "Higher cognition",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N10",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Neocortex Expansion",
+          "suit": "Neural",
+          "mya": 60,
+          "era": "PAL",
+          "eraColor": "#FDD835",
+          "clade": "🐁",
+          "prereq": "Neocortex",
+          "enables": "Complex thought",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N11",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Vocal Learning",
+          "suit": "Neural",
+          "mya": 30,
+          "era": "PAL",
+          "eraColor": "#FDD835",
+          "clade": "🐁🐦🌿",
+          "prereq": "Brain",
+          "enables": "Song, Speech",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "N12",
+          "type": "temporal",
+          "deckType": "evo",
+          "trait": "Language",
+          "suit": "Neural",
+          "mya": 0.3,
+          "era": "QUA",
+          "eraColor": "#D7CCC8",
+          "clade": "🐁",
+          "prereq": "Vocal learning",
+          "enables": "Symbolic communication",
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "N11"
+          ],
+          "enableIds": []
+        }
+      ]
+    },
+    "cambrian": {
+      "id": "cambrian",
+      "title": "Cambrian Prehistory",
+      "valueType": "mya",
+      "hasPrereqs": true,
+      "suits": {
+        "Body Plan": {
+          "primary": "#1A237E",
+          "secondary": "#7986CB",
+          "icon": "🌀"
+        },
+        "Armour": {
+          "primary": "#607D8B",
+          "secondary": "#B0BEC5",
+          "icon": "🛡"
+        },
+        "Locomotion": {
+          "primary": "#00897B",
+          "secondary": "#4DB6AC",
+          "icon": "🌊"
+        },
+        "Feeding": {
+          "primary": "#C62828",
+          "secondary": "#EF5350",
+          "icon": "🦷"
+        },
+        "Respiration": {
+          "primary": "#03A9F4",
+          "secondary": "#81D4FA",
+          "icon": "💨"
+        },
+        "Reproduction": {
+          "primary": "#FF7043",
+          "secondary": "#FFAB91",
+          "icon": "🥚"
+        },
+        "Special": {
+          "primary": "#FFD700",
+          "secondary": "#FFF176",
+          "icon": "⚡"
+        }
+      },
+      "cards": [
+        {
+          "id": "B01",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Prokaryotic Cell",
+          "suit": "Body Plan",
+          "mya": 3500,
+          "era": "ARC",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "-",
+          "enables": "Metabolism",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B02",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Eukaryotic Cell",
+          "suit": "Body Plan",
+          "mya": 2100,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Prokaryote",
+          "enables": "Organelles",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B03",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Multicellularity",
+          "suit": "Body Plan",
+          "mya": 1000,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Eukaryote",
+          "enables": "Tissues",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "Stronger together",
+          "prereqIds": [
+            "B02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B04",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Colonial Organisation",
+          "suit": "Body Plan",
+          "mya": 800,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Multicellularity",
+          "enables": "Division of labour",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B05",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Radial Symmetry",
+          "suit": "Body Plan",
+          "mya": 600,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🪼",
+          "prereq": "Multicellularity",
+          "enables": "Tentacles",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": [
+            "F09"
+          ]
+        },
+        {
+          "id": "B06",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Bilateral Symmetry",
+          "suit": "Body Plan",
+          "mya": 555,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Multicellularity",
+          "enables": "Head/tail axis",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "Left and right: the original design upgrade",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B07",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Body Cavity (Coelom)",
+          "suit": "Body Plan",
+          "mya": 540,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐛",
+          "prereq": "Bilateral",
+          "enables": "Organ space",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B08",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Segmentation",
+          "suit": "Body Plan",
+          "mya": 535,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐛🌿",
+          "prereq": "Bilateral",
+          "enables": "Repeated units",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B09",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Cephalisation",
+          "suit": "Body Plan",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐟",
+          "prereq": "Bilateral",
+          "enables": "Concentrated senses",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B10",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Notochord",
+          "suit": "Body Plan",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟",
+          "prereq": "Bilateral",
+          "enables": "Vertebral column",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B06"
+          ],
+          "enableIds": [
+            "B14"
+          ]
+        },
+        {
+          "id": "B11",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Tagmatisation",
+          "suit": "Body Plan",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Segmentation",
+          "enables": "Body regions",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B12",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Pharyngeal Slits",
+          "suit": "Body Plan",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟",
+          "prereq": "Notochord",
+          "enables": "Filter feeding, Gills",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B10"
+          ],
+          "enableIds": [
+            "F02",
+            "R03"
+          ]
+        },
+        {
+          "id": "B13",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Post-anal Tail",
+          "suit": "Body Plan",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟",
+          "prereq": "Notochord",
+          "enables": "Swimming",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B10"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B14",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Vertebral Column",
+          "suit": "Body Plan",
+          "mya": 480,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟",
+          "prereq": "Notochord",
+          "enables": "Skeleton",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B10"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B15",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Skull",
+          "suit": "Body Plan",
+          "mya": 470,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟",
+          "prereq": "Cephalisation",
+          "enables": "Brain protection",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "B16",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Ribcage",
+          "suit": "Body Plan",
+          "mya": 340,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🐟",
+          "prereq": "Vertebrae",
+          "enables": "Lung protection",
+          "colors": {
+            "primary": "#1A237E",
+            "secondary": "#7986CB",
+            "icon": "🌀"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B14"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A01",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Cell Wall",
+          "suit": "Armour/Defence",
+          "mya": 3500,
+          "era": "ARC",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "-",
+          "enables": "Structure",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "A02",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Collagen Matrix",
+          "suit": "Armour/Defence",
+          "mya": 600,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Multicellularity",
+          "enables": "Connective tissue",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A03",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Spicules",
+          "suit": "Armour/Defence",
+          "mya": 580,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Collagen",
+          "enables": "Skeleton support",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A04",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Chitin",
+          "suit": "Armour/Defence",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🌿",
+          "prereq": "Multicellularity",
+          "enables": "Exoskeleton",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": [
+            "A06"
+          ]
+        },
+        {
+          "id": "A05",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Mineralised Shell",
+          "suit": "Armour/Defence",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐚🦑🌿",
+          "prereq": "Chitin/Collagen",
+          "enables": "Protection",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A06",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Exoskeleton",
+          "suit": "Armour/Defence",
+          "mya": 521,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Chitin",
+          "enables": "Muscle attachment",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A07",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Spines/Bristles",
+          "suit": "Armour/Defence",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐛🌿",
+          "prereq": "Exoskeleton",
+          "enables": "Deterrence",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A08",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Defensive Coiling",
+          "suit": "Armour/Defence",
+          "mya": 515,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Exoskeleton",
+          "enables": "Protect soft parts",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A09",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Ink Sac",
+          "suit": "Armour/Defence",
+          "mya": 500,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐚",
+          "prereq": "Body cavity",
+          "enables": "Escape",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A10",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Dermal Denticles",
+          "suit": "Armour/Defence",
+          "mya": 450,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟",
+          "prereq": "Skin",
+          "enables": "Armour, Hydrodynamics",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "A11",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Bony Plates",
+          "suit": "Armour/Defence",
+          "mya": 430,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Dermal denticles",
+          "enables": "Heavy armour",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A10"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "A12",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Bony Scales",
+          "suit": "Armour/Defence",
+          "mya": 420,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Bone",
+          "enables": "Flexible armour",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "A13",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Venom Glands",
+          "suit": "Armour/Defence",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🦑🐟🌿",
+          "prereq": "Specialised cells",
+          "enables": "Chemical defence",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "A14",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Camouflage Cells",
+          "suit": "Armour/Defence",
+          "mya": 500,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐚🦑🌿",
+          "prereq": "Skin",
+          "enables": "Colour change",
+          "colors": {
+            "primary": "#808080",
+            "secondary": "#C0C0C0",
+            "icon": "?"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "L01",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Flagella",
+          "suit": "Locomotion",
+          "mya": 2000,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Cell",
+          "enables": "Swimming",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L02",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Cilia",
+          "suit": "Locomotion",
+          "mya": 1500,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Cell",
+          "enables": "Swimming, Feeding",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B01"
+          ],
+          "enableIds": [
+            "F02"
+          ]
+        },
+        {
+          "id": "L03",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Muscular Hydrostatic",
+          "suit": "Locomotion",
+          "mya": 600,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🪼",
+          "prereq": "Multicellularity",
+          "enables": "Jet propulsion",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": [
+            "L04"
+          ]
+        },
+        {
+          "id": "L04",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Jet Propulsion",
+          "suit": "Locomotion",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐚",
+          "prereq": "Body cavity",
+          "enables": "Fast escape",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L05",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Jointed Limbs",
+          "suit": "Locomotion",
+          "mya": 521,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Exoskeleton",
+          "enables": "Walking",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L06",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Biramous Limbs",
+          "suit": "Locomotion",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Jointed limbs",
+          "enables": "Swimming + Walking",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "L05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L07",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Parapodia",
+          "suit": "Locomotion",
+          "mya": 518,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐛",
+          "prereq": "Segmentation",
+          "enables": "Paddle swimming",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L08",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Tube Feet",
+          "suit": "Locomotion",
+          "mya": 510,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Body cavity",
+          "enables": "Suction walking",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L09",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Paired Fins",
+          "suit": "Locomotion",
+          "mya": 420,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Vertebrae",
+          "enables": "Steering",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B14"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L10",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Lobed Fins",
+          "suit": "Locomotion",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Paired fins",
+          "enables": "Limbs",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "L09"
+          ],
+          "enableIds": [
+            "L05"
+          ]
+        },
+        {
+          "id": "L11",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Four Limbs",
+          "suit": "Locomotion",
+          "mya": 375,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Lobed fins",
+          "enables": "Terrestrial motion",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "L10"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L12",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Digits",
+          "suit": "Locomotion",
+          "mya": 365,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Four limbs",
+          "enables": "Grasping",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "L11"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L13",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Wings (Insect)",
+          "suit": "Locomotion",
+          "mya": 350,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🦑",
+          "prereq": "Jointed limbs",
+          "enables": "Flight",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "L05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "L14",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Sprawling Gait",
+          "suit": "Locomotion",
+          "mya": 340,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🐟",
+          "prereq": "Four limbs",
+          "enables": "Land walking",
+          "colors": {
+            "primary": "#00897B",
+            "secondary": "#4DB6AC",
+            "icon": "🌊"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "L11"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F01",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Phagocytosis",
+          "suit": "Feeding",
+          "mya": 2000,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Cell",
+          "enables": "Engulfing prey",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B01"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F02",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Filter Feeding",
+          "suit": "Feeding",
+          "mya": 600,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠🐚🌿",
+          "prereq": "Cilia",
+          "enables": "Particle capture",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "L02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F03",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Digestive Cavity",
+          "suit": "Feeding",
+          "mya": 580,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🪼",
+          "prereq": "Multicellularity",
+          "enables": "Internal digestion",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F04",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Through-Gut",
+          "suit": "Feeding",
+          "mya": 540,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐛🐟",
+          "prereq": "Body cavity",
+          "enables": "One-way processing",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F05",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Anus",
+          "suit": "Feeding",
+          "mya": 540,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐛🐟",
+          "prereq": "Through-gut",
+          "enables": "Waste expulsion",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "F04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F06",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Radula",
+          "suit": "Feeding",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐚",
+          "prereq": "Mouth",
+          "enables": "Rasping",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": [
+            "F10"
+          ]
+        },
+        {
+          "id": "F07",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Mandibles",
+          "suit": "Feeding",
+          "mya": 521,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑",
+          "prereq": "Exoskeleton",
+          "enables": "Crushing, Cutting",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F08",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Proboscis",
+          "suit": "Feeding",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐛🦑🌿",
+          "prereq": "Cephalisation",
+          "enables": "Piercing, Sucking",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B09"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F09",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Tentacles",
+          "suit": "Feeding",
+          "mya": 520,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🪼🐚🌿",
+          "prereq": "Radial/Bilateral",
+          "enables": "Prey capture",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "F10",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Rasping Tongue",
+          "suit": "Feeding",
+          "mya": 450,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟",
+          "prereq": "Mouth",
+          "enables": "Scraping",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "F11",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Jaws",
+          "suit": "Feeding",
+          "mya": 430,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Gill arches",
+          "enables": "Biting",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "Finally, a proper bite",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "F12",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Teeth",
+          "suit": "Feeding",
+          "mya": 420,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Jaws",
+          "enables": "Cutting, Grinding",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "F11"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "F13",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Pharyngeal Teeth",
+          "suit": "Feeding",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Pharynx",
+          "enables": "Secondary processing",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "F14",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Tongue (Muscular)",
+          "suit": "Feeding",
+          "mya": 375,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Jaws",
+          "enables": "Prey manipulation",
+          "colors": {
+            "primary": "#C62828",
+            "secondary": "#EF5350",
+            "icon": "🦷"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "F11"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R01",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Aerobic Respiration",
+          "suit": "Respiration",
+          "mya": 2400,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Mitochondria",
+          "enables": "Oxygen use",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "R02",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Diffusion Respiration",
+          "suit": "Respiration",
+          "mya": 600,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠🪼",
+          "prereq": "Multicellularity",
+          "enables": "Simple gas exchange",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R03",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Gills (External)",
+          "suit": "Respiration",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🦑🐟🌿",
+          "prereq": "Body cavity",
+          "enables": "Aquatic breathing",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B07"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R04",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Gills (Internal)",
+          "suit": "Respiration",
+          "mya": 480,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🐟",
+          "prereq": "Pharyngeal slits",
+          "enables": "Protected breathing",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B12"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R05",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Book Gills",
+          "suit": "Respiration",
+          "mya": 450,
+          "era": "ORD",
+          "eraColor": "#8BC34A",
+          "clade": "🦑",
+          "prereq": "Exoskeleton",
+          "enables": "Aquatic breathing",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R06",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Book Lungs",
+          "suit": "Respiration",
+          "mya": 420,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🦑",
+          "prereq": "Book gills",
+          "enables": "Terrestrial breathing",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R05"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R07",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Tracheal System",
+          "suit": "Respiration",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🦑",
+          "prereq": "Exoskeleton",
+          "enables": "Direct air delivery",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "A06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R08",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Swim Bladder",
+          "suit": "Respiration",
+          "mya": 420,
+          "era": "SIL",
+          "eraColor": "#9575CD",
+          "clade": "🐟",
+          "prereq": "Internal gills",
+          "enables": "Buoyancy",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "R04"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R09",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Lungs",
+          "suit": "Respiration",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟",
+          "prereq": "Swim bladder",
+          "enables": "Air breathing",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "Taking the first breath of fresh air",
+          "prereqIds": [
+            "R08"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "R10",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Cutaneous Respiration",
+          "suit": "Respiration",
+          "mya": 375,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🌿",
+          "prereq": "Permeable skin",
+          "enables": "Skin breathing",
+          "colors": {
+            "primary": "#03A9F4",
+            "secondary": "#81D4FA",
+            "icon": "💨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "P01",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Binary Fission",
+          "suit": "Reproduction",
+          "mya": 3500,
+          "era": "ARC",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "-",
+          "enables": "Asexual reproduction",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "P02",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Sexual Reproduction",
+          "suit": "Reproduction",
+          "mya": 1200,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Eukaryote",
+          "enables": "Genetic diversity",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "B02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "P03",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Gamete Dimorphism",
+          "suit": "Reproduction",
+          "mya": 600,
+          "era": "PRO",
+          "eraColor": "#3D5A6C",
+          "clade": "🦠",
+          "prereq": "Sexual",
+          "enables": "Egg/Sperm",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "P02"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "P04",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "External Fertilisation",
+          "suit": "Reproduction",
+          "mya": 540,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐟🐚🦑",
+          "prereq": "Gametes",
+          "enables": "Spawning",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "P03"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "P05",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Larval Stage",
+          "suit": "Reproduction",
+          "mya": 530,
+          "era": "CAM",
+          "eraColor": "#7CB342",
+          "clade": "🐚🦑🐛🌿",
+          "prereq": "Metamorphosis",
+          "enables": "Dispersal",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "P06",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Internal Fertilisation",
+          "suit": "Reproduction",
+          "mya": 385,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦑🌿",
+          "prereq": "Copulation",
+          "enables": "Protection",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "P07",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Amniotic Egg",
+          "suit": "Reproduction",
+          "mya": 312,
+          "era": "CAR",
+          "eraColor": "#546E7A",
+          "clade": "🐟",
+          "prereq": "Internal fert",
+          "enables": "Terrestrial eggs",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [
+            "P06"
+          ],
+          "enableIds": []
+        },
+        {
+          "id": "P08",
+          "type": "temporal",
+          "deckType": "cambrian",
+          "trait": "Parental Care",
+          "suit": "Reproduction",
+          "mya": 400,
+          "era": "DEV",
+          "eraColor": "#795548",
+          "clade": "🐟🦑🌿",
+          "prereq": "Offspring",
+          "enables": "Survival boost",
+          "colors": {
+            "primary": "#FF7043",
+            "secondary": "#FFAB91",
+            "icon": "🥚"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        }
+      ]
+    },
+    "human": {
+      "id": "human",
+      "title": "Human Genetics",
+      "valueType": "percent",
+      "hasPrereqs": false,
+      "suits": {
+        "Sensory": {
+          "primary": "#1E90FF",
+          "secondary": "#87CEEB",
+          "icon": "👁"
+        },
+        "Digestive": {
+          "primary": "#32CD32",
+          "secondary": "#90EE90",
+          "icon": "🍽"
+        },
+        "Metabolic": {
+          "primary": "#FF8C00",
+          "secondary": "#FFB347",
+          "icon": "⚡"
+        },
+        "Cosmetic": {
+          "primary": "#FF69B4",
+          "secondary": "#FFB6C1",
+          "icon": "✨"
+        },
+        "Behavioural": {
+          "primary": "#8B008B",
+          "secondary": "#DDA0DD",
+          "icon": "🧠"
+        },
+        "Immunity": {
+          "primary": "#DC143C",
+          "secondary": "#FF6B6B",
+          "icon": "🛡"
+        },
+        "Structural": {
+          "primary": "#708090",
+          "secondary": "#C0C0C0",
+          "icon": "🦴"
+        },
+        "Special": {
+          "primary": "#FFD700",
+          "secondary": "#FFFDD0",
+          "icon": "🎲"
+        }
+      },
+      "cards": [
+        {
+          "id": "S01",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Red-Green Colourblind",
+          "suit": "Sensory",
+          "gene": "OPN1LW",
+          "rsid": "-",
+          "globalPercent": 8,
+          "peak": "🇪🇺 European",
+          "effect": "-2 Colour",
+          "h2": 1,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S02",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Blue-Yellow Colourblind",
+          "suit": "Sensory",
+          "gene": "OPN1SW",
+          "rsid": "-",
+          "globalPercent": 0.01,
+          "peak": "Uniform",
+          "effect": "-3 Colour",
+          "h2": 1,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S03",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Tetrachromat",
+          "suit": "Sensory",
+          "gene": "OPN1MW",
+          "rsid": "-",
+          "globalPercent": 12,
+          "peak": "🇪🇺 European",
+          "effect": "+3 Colour",
+          "h2": 1,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S04",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Supertaster (PTC)",
+          "suit": "Sensory",
+          "gene": "TAS2R38",
+          "rsid": "rs713598",
+          "globalPercent": 25,
+          "peak": "🌍 W. Africa 45%",
+          "effect": "+2 Bitter",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S05",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Non-taster (PTC)",
+          "suit": "Sensory",
+          "gene": "TAS2R38",
+          "rsid": "rs713598",
+          "globalPercent": 30,
+          "peak": "🇯🇵 E. Asia 40%",
+          "effect": "-1 Bitter",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S06",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Cilantro Soap",
+          "suit": "Sensory",
+          "gene": "OR6A2",
+          "rsid": "rs72921001",
+          "globalPercent": 14,
+          "peak": "🇪🇺 European 21%",
+          "effect": "-1 Taste",
+          "h2": 0.7,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S07",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Asparagus Smell",
+          "suit": "Sensory",
+          "gene": "OR2M7",
+          "rsid": "rs4481887",
+          "globalPercent": 40,
+          "peak": "🇪🇺 European 50%",
+          "effect": "+1 Smell",
+          "h2": 0.6,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S08",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Photic Sneeze (ACHOO)",
+          "suit": "Sensory",
+          "gene": "ACHOO",
+          "rsid": "rs10427255",
+          "globalPercent": 25,
+          "peak": "🇪🇺 European 35%",
+          "effect": "+1 Quirk",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S09",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Pain Insensitivity",
+          "suit": "Sensory",
+          "gene": "SCN9A",
+          "rsid": "rs6746030",
+          "globalPercent": 0.001,
+          "peak": "Scattered",
+          "effect": "+3 Pain resist",
+          "h2": 0.95,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S10",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Enhanced Pain",
+          "suit": "Sensory",
+          "gene": "SCN9A",
+          "rsid": "rs6746030",
+          "globalPercent": 3,
+          "peak": "🇪🇺 European",
+          "effect": "-2 Pain resist",
+          "h2": 0.95,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S11",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Perfect Pitch",
+          "suit": "Sensory",
+          "gene": "Multiple",
+          "rsid": "Polygenic",
+          "globalPercent": 0.01,
+          "peak": "🇯🇵 E. Asia 0.1%",
+          "effect": "+3 Music",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S12",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Tone Deaf (Amusia)",
+          "suit": "Sensory",
+          "gene": "Multiple",
+          "rsid": "Polygenic",
+          "globalPercent": 4,
+          "peak": "Uniform",
+          "effect": "-2 Music",
+          "h2": 0.7,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S13",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Motion Sickness",
+          "suit": "Sensory",
+          "gene": "Multiple",
+          "rsid": "Polygenic",
+          "globalPercent": 30,
+          "peak": "🇯🇵 E. Asia 40%",
+          "effect": "-1 Travel",
+          "h2": 0.55,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S14",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Misophonia",
+          "suit": "Sensory",
+          "gene": "Unknown",
+          "rsid": "rs2937573",
+          "globalPercent": 15,
+          "peak": "Unknown",
+          "effect": "-1 Sound",
+          "h2": 0.5,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S15",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Hyperacusis",
+          "suit": "Sensory",
+          "gene": "Multiple",
+          "rsid": "Polygenic",
+          "globalPercent": 8,
+          "peak": "Unknown",
+          "effect": "+1 Hearing",
+          "h2": 0.45,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "S16",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Anosmia (Congenital)",
+          "suit": "Sensory",
+          "gene": "OR Genes",
+          "rsid": "Various",
+          "globalPercent": 1,
+          "peak": "Uniform",
+          "effect": "-2 Smell",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#1E90FF",
+            "secondary": "#87CEEB",
+            "icon": "👁"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D01",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Lactase Persistent",
+          "suit": "Digestive",
+          "gene": "LCT",
+          "rsid": "rs4988235",
+          "globalPercent": 35,
+          "peak": "🇪🇺 N. Europe 95%",
+          "effect": "+2 Dairy",
+          "h2": 0.95,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "Milk: not just for babies anymore",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D02",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Lactose Intolerant",
+          "suit": "Digestive",
+          "gene": "LCT",
+          "rsid": "rs4988235",
+          "globalPercent": 65,
+          "peak": "🇯🇵 E. Asia 95%",
+          "effect": "-2 Dairy",
+          "h2": 0.95,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D03",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Alcohol Flush",
+          "suit": "Digestive",
+          "gene": "ALDH2",
+          "rsid": "rs671",
+          "globalPercent": 8,
+          "peak": "🇯🇵 E. Asia 45%",
+          "effect": "-2 Alcohol",
+          "h2": 1,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "The Asian glow",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D04",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Fast Alcohol Clear",
+          "suit": "Digestive",
+          "gene": "ADH1B",
+          "rsid": "rs1229984",
+          "globalPercent": 15,
+          "peak": "🇯🇵 E. Asia 70%",
+          "effect": "+1 Alcohol",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D05",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Coeliac Risk",
+          "suit": "Digestive",
+          "gene": "HLA-DQ",
+          "rsid": "Various",
+          "globalPercent": 1,
+          "peak": "🇪🇺 N. Europe 2%",
+          "effect": "-2 Gluten",
+          "h2": 0.75,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D06",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Bitter Coffee Love",
+          "suit": "Digestive",
+          "gene": "CYP1A2",
+          "rsid": "rs762551",
+          "globalPercent": 45,
+          "peak": "🌍 Ethiopia 78%",
+          "effect": "+2 Bitter",
+          "h2": 0.75,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D07",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Asparagus Pee",
+          "suit": "Digestive",
+          "gene": "Multiple",
+          "rsid": "rs4481887",
+          "globalPercent": 50,
+          "peak": "🇪🇺 European 60%",
+          "effect": "+1 Quirk",
+          "h2": 0.6,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D08",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "FUT2 Secretor",
+          "suit": "Digestive",
+          "gene": "FUT2",
+          "rsid": "rs601338",
+          "globalPercent": 80,
+          "peak": "Uniform",
+          "effect": "+1 Gut",
+          "h2": 1,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D09",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "FUT2 Non-secretor",
+          "suit": "Digestive",
+          "gene": "FUT2",
+          "rsid": "rs601338",
+          "globalPercent": 20,
+          "peak": "Uniform",
+          "effect": "-1 Gut, +1 Norovirus resist",
+          "h2": 1,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D10",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Flatulence",
+          "suit": "Digestive",
+          "gene": "FUT2/Diet",
+          "rsid": "Polygenic",
+          "globalPercent": 30,
+          "peak": "Variable",
+          "effect": "+1 Quirk",
+          "h2": 0.35,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D11",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Spicy Tolerance",
+          "suit": "Digestive",
+          "gene": "TRPV1",
+          "rsid": "rs8065080",
+          "globalPercent": 25,
+          "peak": "🇲🇽 Mexico 40%",
+          "effect": "+2 Spice",
+          "h2": 0.55,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D12",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "MSG Sensitivity",
+          "suit": "Digestive",
+          "gene": "Unknown",
+          "rsid": "Unknown",
+          "globalPercent": 15,
+          "peak": "🇪🇺 European 20%",
+          "effect": "-1 Umami",
+          "h2": 0.4,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D13",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Fructose Malabsorption",
+          "suit": "Digestive",
+          "gene": "SLC2A5",
+          "rsid": "Various",
+          "globalPercent": 35,
+          "peak": "🇪🇺 European 40%",
+          "effect": "-1 Fruit",
+          "h2": 0.6,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "D14",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Amylase",
+          "suit": "Digestive",
+          "gene": "AMY1",
+          "rsid": "CNV",
+          "globalPercent": 50,
+          "peak": "Agricultural",
+          "effect": "+1 Starch",
+          "h2": 0.7,
+          "colors": {
+            "primary": "#32CD32",
+            "secondary": "#90EE90",
+            "icon": "🍽"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M01",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Fast Caffeine",
+          "suit": "Metabolic",
+          "gene": "CYP1A2",
+          "rsid": "rs762551",
+          "globalPercent": 45,
+          "peak": "🌍 Ethiopia 78%",
+          "effect": "+2 Energy",
+          "h2": 0.75,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M02",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Slow Caffeine",
+          "suit": "Metabolic",
+          "gene": "CYP1A2",
+          "rsid": "rs762551",
+          "globalPercent": 55,
+          "peak": "🇮🇹 S. Europe 65%",
+          "effect": "-1 Sleep",
+          "h2": 0.75,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M03",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Thrifty Metabolism",
+          "suit": "Metabolic",
+          "gene": "FTO",
+          "rsid": "rs9939609",
+          "globalPercent": 45,
+          "peak": "🌏 Pacific 75%",
+          "effect": "+2 Fat storage",
+          "h2": 0.65,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M04",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Lean Metabolism",
+          "suit": "Metabolic",
+          "gene": "FTO",
+          "rsid": "rs9939609",
+          "globalPercent": 25,
+          "peak": "🌍 E. Africa 35%",
+          "effect": "-1 Fat storage",
+          "h2": 0.65,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M05",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High VO2max",
+          "suit": "Metabolic",
+          "gene": "ACTN3",
+          "rsid": "rs1815739",
+          "globalPercent": 18,
+          "peak": "🌍 W. Africa 25%",
+          "effect": "+3 Endurance",
+          "h2": 0.7,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M06",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Sprint Gene",
+          "suit": "Metabolic",
+          "gene": "ACTN3",
+          "rsid": "rs1815739",
+          "globalPercent": 30,
+          "peak": "🇯🇲 Jamaica 75%",
+          "effect": "+3 Power",
+          "h2": 0.7,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M07",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Vitamin D Efficient",
+          "suit": "Metabolic",
+          "gene": "GC/CYP2R1",
+          "rsid": "Various",
+          "globalPercent": 40,
+          "peak": "🇪🇺 N. Europe 60%",
+          "effect": "+1 Bone",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M08",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "MTHFR Variant",
+          "suit": "Metabolic",
+          "gene": "MTHFR",
+          "rsid": "rs1801133",
+          "globalPercent": 35,
+          "peak": "🇲🇽 Hispanic 50%",
+          "effect": "-1 Folate",
+          "h2": 1,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M09",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Iron Overload Risk",
+          "suit": "Metabolic",
+          "gene": "HFE",
+          "rsid": "rs1800562",
+          "globalPercent": 1,
+          "peak": "🇪🇺 N. Europe 5%",
+          "effect": "+1 Iron",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M10",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "B12 Absorption Low",
+          "suit": "Metabolic",
+          "gene": "FUT2",
+          "rsid": "rs602662",
+          "globalPercent": 20,
+          "peak": "Uniform",
+          "effect": "-1 B12",
+          "h2": 1,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M11",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Cholesterol Risk",
+          "suit": "Metabolic",
+          "gene": "PCSK9",
+          "rsid": "Various",
+          "globalPercent": 2,
+          "peak": "Uniform",
+          "effect": "-2 Heart",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M12",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Low Cholesterol",
+          "suit": "Metabolic",
+          "gene": "PCSK9",
+          "rsid": "rs11591147",
+          "globalPercent": 3,
+          "peak": "🌍 African 10%",
+          "effect": "+2 Heart",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M13",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Fast Nicotine Metaboliser",
+          "suit": "Metabolic",
+          "gene": "CYP2A6",
+          "rsid": "Various",
+          "globalPercent": 30,
+          "peak": "Variable",
+          "effect": "+1 Quit ease",
+          "h2": 0.6,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "M14",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "THC Sensitivity",
+          "suit": "Metabolic",
+          "gene": "CNR1",
+          "rsid": "rs1049353",
+          "globalPercent": 25,
+          "peak": "🇪🇺 European 30%",
+          "effect": "+2 Cannabis effect",
+          "h2": 0.55,
+          "colors": {
+            "primary": "#FF8C00",
+            "secondary": "#FFB347",
+            "icon": "⚡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C01",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Wet Earwax",
+          "suit": "Cosmetic",
+          "gene": "ABCC11",
+          "rsid": "rs17822931",
+          "globalPercent": 70,
+          "peak": "🌍 African 100%",
+          "effect": "+1 Body odour",
+          "h2": 1,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C02",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Dry Earwax",
+          "suit": "Cosmetic",
+          "gene": "ABCC11",
+          "rsid": "rs17822931",
+          "globalPercent": 30,
+          "peak": "🇯🇵 E. Asia 95%",
+          "effect": "-1 Body odour",
+          "h2": 1,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C03",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Freckles",
+          "suit": "Cosmetic",
+          "gene": "MC1R",
+          "rsid": "rs1805007",
+          "globalPercent": 15,
+          "peak": "🇪🇺 N. Europe 40%",
+          "effect": "+1 Sun sens",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C04",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Red Hair",
+          "suit": "Cosmetic",
+          "gene": "MC1R",
+          "rsid": "rs1805007",
+          "globalPercent": 2,
+          "peak": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland 13%",
+          "effect": "+2 Sun sens",
+          "h2": 0.95,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "Kissed by fire",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C05",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Widow's Peak",
+          "suit": "Cosmetic",
+          "gene": "Unknown",
+          "rsid": "Polygenic",
+          "globalPercent": 35,
+          "peak": "Uniform",
+          "effect": "+1 Quirk",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C06",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Attached Earlobes",
+          "suit": "Cosmetic",
+          "gene": "EDAR",
+          "rsid": "rs3827760",
+          "globalPercent": 50,
+          "peak": "Variable",
+          "effect": "+1 Quirk",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C07",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Cleft Chin",
+          "suit": "Cosmetic",
+          "gene": "Unknown",
+          "rsid": "Polygenic",
+          "globalPercent": 25,
+          "peak": "🇪🇺 European 30%",
+          "effect": "+1 Quirk",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C08",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Dimples",
+          "suit": "Cosmetic",
+          "gene": "Unknown",
+          "rsid": "Polygenic",
+          "globalPercent": 20,
+          "peak": "Uniform",
+          "effect": "+1 Quirk",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C09",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Blue Eyes",
+          "suit": "Cosmetic",
+          "gene": "OCA2/HERC2",
+          "rsid": "rs12913832",
+          "globalPercent": 8,
+          "peak": "🇪🇺 N. Europe 80%",
+          "effect": "+1 Light sens",
+          "h2": 0.98,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "A single mutation, 10,000 years ago",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C10",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Green Eyes",
+          "suit": "Cosmetic",
+          "gene": "Multiple",
+          "rsid": "Polygenic",
+          "globalPercent": 2,
+          "peak": "🇪🇺 N. Europe 15%",
+          "effect": "+2 Rare",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C11",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Heterochromia",
+          "suit": "Cosmetic",
+          "gene": "Multiple",
+          "rsid": "Various",
+          "globalPercent": 0.6,
+          "peak": "Uniform",
+          "effect": "+3 Rare",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C12",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Unibrow",
+          "suit": "Cosmetic",
+          "gene": "PAX3",
+          "rsid": "rs7544528",
+          "globalPercent": 25,
+          "peak": "🇮🇷 Middle East 40%",
+          "effect": "+1 Quirk",
+          "h2": 0.75,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C13",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Thick Hair",
+          "suit": "Cosmetic",
+          "gene": "EDAR",
+          "rsid": "rs3827760",
+          "globalPercent": 30,
+          "peak": "🇯🇵 E. Asia 90%",
+          "effect": "+1 Hair",
+          "h2": 0.95,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C14",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Male Pattern Bald",
+          "suit": "Cosmetic",
+          "gene": "AR",
+          "rsid": "rs6152",
+          "globalPercent": 50,
+          "peak": "🇪🇺 European 60%",
+          "effect": "-1 Hair",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C15",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Early Grey Hair",
+          "suit": "Cosmetic",
+          "gene": "IRF4",
+          "rsid": "rs12203592",
+          "globalPercent": 20,
+          "peak": "🇪🇺 European 30%",
+          "effect": "+1 Quirk",
+          "h2": 0.65,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "C16",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Double Eyelash",
+          "suit": "Cosmetic",
+          "gene": "FOXC2",
+          "rsid": "Rare",
+          "globalPercent": 0.01,
+          "peak": "Scattered",
+          "effect": "+2 Rare",
+          "h2": 1,
+          "colors": {
+            "primary": "#FF69B4",
+            "secondary": "#FFB6C1",
+            "icon": "✨"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B01",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Morning Person",
+          "suit": "Behavioural",
+          "gene": "PER2",
+          "rsid": "rs2304672",
+          "globalPercent": 25,
+          "peak": "🇪🇺 N. Europe 35%",
+          "effect": "+2 Morning",
+          "h2": 0.5,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B02",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Night Owl",
+          "suit": "Behavioural",
+          "gene": "CLOCK",
+          "rsid": "rs1801260",
+          "globalPercent": 30,
+          "peak": "🇮🇹 S. Europe 40%",
+          "effect": "+2 Night",
+          "h2": 0.5,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B03",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Short Sleeper",
+          "suit": "Behavioural",
+          "gene": "DEC2",
+          "rsid": "rs121912617",
+          "globalPercent": 1,
+          "peak": "Scattered",
+          "effect": "+3 Time",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B04",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Sleep Need",
+          "suit": "Behavioural",
+          "gene": "ADA",
+          "rsid": "rs73598374",
+          "globalPercent": 10,
+          "peak": "Uniform",
+          "effect": "-1 Time",
+          "h2": 0.7,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B05",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Novelty Seeking",
+          "suit": "Behavioural",
+          "gene": "DRD4",
+          "rsid": "7R allele",
+          "globalPercent": 20,
+          "peak": "🌎 Americas 60%",
+          "effect": "+2 Adventure",
+          "h2": 0.6,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B06",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Risk Averse",
+          "suit": "Behavioural",
+          "gene": "DRD4",
+          "rsid": "4R allele",
+          "globalPercent": 65,
+          "peak": "🇯🇵 E. Asia 80%",
+          "effect": "+1 Caution",
+          "h2": 0.6,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B07",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Warrior Gene",
+          "suit": "Behavioural",
+          "gene": "MAOA",
+          "rsid": "Low activity",
+          "globalPercent": 35,
+          "peak": "Variable",
+          "effect": "+1 Aggression",
+          "h2": 0.4,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B08",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Empathy",
+          "suit": "Behavioural",
+          "gene": "OXTR",
+          "rsid": "rs53576",
+          "globalPercent": 60,
+          "peak": "Uniform",
+          "effect": "+2 Social",
+          "h2": 0.5,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B09",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Optimism Bias",
+          "suit": "Behavioural",
+          "gene": "OXTR/5-HTT",
+          "rsid": "Polygenic",
+          "globalPercent": 40,
+          "peak": "Uniform",
+          "effect": "+1 Mood",
+          "h2": 0.35,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B10",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Anxiety Prone",
+          "suit": "Behavioural",
+          "gene": "SLC6A4",
+          "rsid": "rs25531",
+          "globalPercent": 45,
+          "peak": "🇪🇺 European 50%",
+          "effect": "-1 Mood",
+          "h2": 0.45,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B11",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "ADHD Risk",
+          "suit": "Behavioural",
+          "gene": "DRD4/DAT1",
+          "rsid": "Various",
+          "globalPercent": 5,
+          "peak": "🇪🇺 European 8%",
+          "effect": "-1 Focus, +1 Create",
+          "h2": 0.75,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "B12",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Pain Empathy",
+          "suit": "Behavioural",
+          "gene": "Unknown",
+          "rsid": "Polygenic",
+          "globalPercent": 30,
+          "peak": "Unknown",
+          "effect": "+1 Empathy",
+          "h2": 0.4,
+          "colors": {
+            "primary": "#8B008B",
+            "secondary": "#DDA0DD",
+            "icon": "🧠"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I01",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Malaria Resist (Sickle)",
+          "suit": "Immunity",
+          "gene": "HBB",
+          "rsid": "rs334",
+          "globalPercent": 8,
+          "peak": "🌍 W. Africa 25%",
+          "effect": "+3 Malaria resist",
+          "h2": 1,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I02",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Malaria Resist (Duffy)",
+          "suit": "Immunity",
+          "gene": "DARC",
+          "rsid": "rs2814778",
+          "globalPercent": 3,
+          "peak": "🌍 W. Africa 95%",
+          "effect": "+2 Malaria resist",
+          "h2": 1,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I03",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "HIV Resistance",
+          "suit": "Immunity",
+          "gene": "CCR5",
+          "rsid": "rs333 Δ32",
+          "globalPercent": 1,
+          "peak": "🇪🇺 N. Europe 10%",
+          "effect": "+3 HIV resist",
+          "h2": 1,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I04",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Norovirus Resist",
+          "suit": "Immunity",
+          "gene": "FUT2",
+          "rsid": "rs601338",
+          "globalPercent": 20,
+          "peak": "Uniform",
+          "effect": "+2 Stomach bugs",
+          "h2": 1,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I05",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Autoimmune Risk",
+          "suit": "Immunity",
+          "gene": "HLA-B27",
+          "rsid": "-",
+          "globalPercent": 8,
+          "peak": "🇪🇺 N. Europe 12%",
+          "effect": "-2 Joints",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I06",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Coeliac HLA",
+          "suit": "Immunity",
+          "gene": "HLA-DQ2/8",
+          "rsid": "-",
+          "globalPercent": 30,
+          "peak": "🇪🇺 N. Europe 40%",
+          "effect": "-1 Gluten risk",
+          "h2": 0.9,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I07",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Strong Sneeze",
+          "suit": "Immunity",
+          "gene": "Unknown",
+          "rsid": "Polygenic",
+          "globalPercent": 20,
+          "peak": "Uniform",
+          "effect": "+1 Pathogen clear",
+          "h2": 0.5,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I08",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Allergic Tendency",
+          "suit": "Immunity",
+          "gene": "IL-4/13",
+          "rsid": "Various",
+          "globalPercent": 30,
+          "peak": "Developed",
+          "effect": "-1 Immune",
+          "h2": 0.55,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I09",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Fever Response",
+          "suit": "Immunity",
+          "gene": "IL-6",
+          "rsid": "Various",
+          "globalPercent": 25,
+          "peak": "🌍 African 35%",
+          "effect": "+1 Infection fight",
+          "h2": 0.6,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "I10",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Low Inflammation",
+          "suit": "Immunity",
+          "gene": "CRP",
+          "rsid": "rs1205",
+          "globalPercent": 20,
+          "peak": "Uniform",
+          "effect": "+1 Longevity",
+          "h2": 0.65,
+          "colors": {
+            "primary": "#DC143C",
+            "secondary": "#FF6B6B",
+            "icon": "🛡"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T01",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Tall Stature",
+          "suit": "Structural",
+          "gene": "HMGA2/GDF5",
+          "rsid": "Polygenic",
+          "globalPercent": 15,
+          "peak": "🇪🇺 N. Europe 30%",
+          "effect": "+2 Height",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T02",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Short Stature",
+          "suit": "Structural",
+          "gene": "HMGA2/GDF5",
+          "rsid": "Polygenic",
+          "globalPercent": 15,
+          "peak": "🌏 S.E. Asia 25%",
+          "effect": "-1 Height",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T03",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Double-Jointed",
+          "suit": "Structural",
+          "gene": "COL5A1",
+          "rsid": "rs12722",
+          "globalPercent": 15,
+          "peak": "Uniform",
+          "effect": "+2 Flexibility",
+          "h2": 0.7,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T04",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Dense Bones",
+          "suit": "Structural",
+          "gene": "LRP5",
+          "rsid": "rs3736228",
+          "globalPercent": 5,
+          "peak": "Uniform",
+          "effect": "+2 Bone",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T05",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Osteoporosis Risk",
+          "suit": "Structural",
+          "gene": "LRP5",
+          "rsid": "rs3736228",
+          "globalPercent": 15,
+          "peak": "🇪🇺 European 20%",
+          "effect": "-2 Bone",
+          "h2": 0.85,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T06",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "High Muscle Insert",
+          "suit": "Structural",
+          "gene": "MSTN",
+          "rsid": "Polygenic",
+          "globalPercent": 10,
+          "peak": "🌍 W. Africa 20%",
+          "effect": "+1 Power",
+          "h2": 0.75,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T07",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Long Achilles",
+          "suit": "Structural",
+          "gene": "Unknown",
+          "rsid": "Polygenic",
+          "globalPercent": 20,
+          "peak": "🌍 E. Africa 60%",
+          "effect": "+2 Running",
+          "h2": 0.65,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        },
+        {
+          "id": "T08",
+          "type": "genetics",
+          "deckType": "human",
+          "trait": "Morton's Toe",
+          "suit": "Structural",
+          "gene": "Unknown",
+          "rsid": "Polygenic",
+          "globalPercent": 20,
+          "peak": "🇬🇷 Greek 30%",
+          "effect": "+1 Quirk",
+          "h2": 0.8,
+          "colors": {
+            "primary": "#708090",
+            "secondary": "#C0C0C0",
+            "icon": "🦴"
+          },
+          "flavour": "",
+          "prereqIds": [],
+          "enableIds": []
+        }
+      ]
+    }
+  }
+}
