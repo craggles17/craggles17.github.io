@@ -56,6 +56,7 @@
             "icon": "🦴"
           },
           "flavour": "The same innovation evolved independently at least twenty-five different times across the tree of life",
+          "description": "Organism made of multiple cells working together as one",
           "prereqIds": [],
           "enableIds": []
         },
@@ -77,6 +78,7 @@
             "icon": "🦴"
           },
           "flavour": "This body plan enabled animals to develop a front and back, revolutionizing movement and sensory organization",
+          "description": "Body with left and right mirror-image sides",
           "prereqIds": [
             "S01"
           ],
@@ -100,6 +102,7 @@
             "icon": "🦴"
           },
           "flavour": "Arthropods must molt their rigid outer shell to grow, leaving them temporarily vulnerable",
+          "description": "Hard external skeleton protecting soft body tissues",
           "prereqIds": [
             "S02"
           ],
@@ -123,6 +126,7 @@
             "icon": "🦴"
           },
           "flavour": "This flexible rod of cells provides support and serves as a blueprint for the spine",
+          "description": "Flexible rod supporting body along head-to-tail axis",
           "prereqIds": [
             "S02"
           ],
@@ -148,6 +152,7 @@
             "icon": "🦴"
           },
           "flavour": "The segmented backbone allows flexibility while protecting the spinal cord",
+          "description": "Chain of bone segments protecting spinal cord",
           "prereqIds": [
             "S04"
           ],
@@ -174,6 +179,7 @@
             "icon": "🦴"
           },
           "flavour": "This innovation transformed filter-feeders into predators and opened up entirely new ecological niches",
+          "description": "Hinged mouth parts for grasping and biting",
           "prereqIds": [
             "S05"
           ],
@@ -197,6 +203,7 @@
             "icon": "🦴"
           },
           "flavour": "Unlike cartilage, bone serves as a mineral reservoir and produces blood cells",
+          "description": "Internal framework made of hard bone tissue",
           "prereqIds": [
             "S05"
           ],
@@ -220,6 +227,7 @@
             "icon": "🦴"
           },
           "flavour": "These muscular, bone-supported fins were pre-adaptations that made walking on land possible",
+          "description": "Muscular, fleshy fins with internal bones",
           "prereqIds": [
             "S07"
           ],
@@ -245,6 +253,7 @@
             "icon": "🦴"
           },
           "flavour": "All tetrapod limbs share the same basic bone pattern despite wildly different functions",
+          "description": "Paired appendages for walking or grasping (tetrapod limbs)",
           "prereqIds": [
             "S08"
           ],
@@ -268,6 +277,7 @@
             "icon": "🦴"
           },
           "flavour": "The number of fingers and toes has varied wildly through evolution, with early tetrapods sporting up to eight per limb",
+          "description": "Fingers or toes at limb ends",
           "prereqIds": [
             "S09"
           ],
@@ -291,6 +301,7 @@
             "icon": "🦴"
           },
           "flavour": "This bony cage protects vital organs while allowing the lungs to expand and contract",
+          "description": "Bone cage protecting heart and lungs",
           "prereqIds": [
             "S05"
           ],
@@ -314,6 +325,7 @@
             "icon": "🦴"
           },
           "flavour": "The turtle shell is actually modified ribs and vertebrae fused with the skin",
+          "description": "Bony or leathery shield covering body",
           "prereqIds": [
             "S11"
           ],
@@ -337,6 +349,7 @@
             "icon": "🦴"
           },
           "flavour": "Bird bones are filled with air sacs that connect to the lungs, making them strong yet lightweight",
+          "description": "Lightweight bones with air-filled cavities",
           "prereqIds": [
             "S07"
           ],
@@ -360,6 +373,7 @@
             "icon": "🦴"
           },
           "flavour": "Antlers are shed and regrown annually, while horns grow continuously throughout life",
+          "description": "Bony head projections for display or combat",
           "prereqIds": [],
           "enableIds": []
         },
@@ -381,6 +395,7 @@
             "icon": "🦴"
           },
           "flavour": "This trait allows precision gripping and is found in primates, opossums, and some frogs",
+          "description": "Thumb positioned to grasp against other fingers",
           "prereqIds": [
             "S10"
           ],
@@ -404,6 +419,7 @@
             "icon": "🦴"
           },
           "flavour": "Walking upright freed the hands for tool use but made childbirth more difficult",
+          "description": "Body structure adapted for upright two-legged walking",
           "prereqIds": [
             "S09"
           ],
@@ -427,6 +443,7 @@
             "icon": "👁"
           },
           "flavour": "Even single-celled organisms can detect light using simple light-sensitive proteins",
+          "description": "Light-sensitive cells detecting brightness and darkness",
           "prereqIds": [
             "S01"
           ],
@@ -450,6 +467,7 @@
             "icon": "👁"
           },
           "flavour": "The octopus eye evolved completely independently from the vertebrate eye yet works remarkably similarly",
+          "description": "Eye with lens focusing light onto retina",
           "prereqIds": [],
           "enableIds": []
         },
@@ -471,6 +489,7 @@
             "icon": "👁"
           },
           "flavour": "Each tiny lens in a compound eye captures a single pixel of the overall image",
+          "description": "Eye made of many small light-detecting units",
           "prereqIds": [],
           "enableIds": []
         },
@@ -492,6 +511,7 @@
             "icon": "👁"
           },
           "flavour": "This sensory system detects water movement and vibrations, essentially allowing fish to \"feel\" at a distance",
+          "description": "Water pressure sensors along fish body sides",
           "prereqIds": [
             "S02"
           ],
@@ -515,6 +535,7 @@
             "icon": "👁"
           },
           "flavour": "Some fish can detect the weak electrical fields generated by muscle contractions in prey",
+          "description": "Ability to sense electric fields in water",
           "prereqIds": [
             "E04"
           ],
@@ -538,6 +559,7 @@
             "icon": "👁"
           },
           "flavour": "",
+          "description": "Fluid-filled chambers detecting head position and motion",
           "prereqIds": [],
           "enableIds": []
         },
@@ -559,6 +581,7 @@
             "icon": "👁"
           },
           "flavour": "",
+          "description": "Muscular organ tasting and detecting chemicals",
           "prereqIds": [
             "S06"
           ],
@@ -582,6 +605,7 @@
             "icon": "👁"
           },
           "flavour": "The third eyelid, or nictitating membrane, sweeps across the eye horizontally in many animals",
+          "description": "Movable skin folds protecting and moistening eyes",
           "prereqIds": [
             "E02"
           ],
@@ -605,6 +629,7 @@
             "icon": "👁"
           },
           "flavour": "Snakes \"smell\" by flicking their tongue to collect particles and delivering them to this specialized sensor",
+          "description": "Scent detector in roof of mouth",
           "prereqIds": [
             "E07"
           ],
@@ -628,6 +653,7 @@
             "icon": "👁"
           },
           "flavour": "",
+          "description": "Heat-sensing organs detecting infrared radiation",
           "prereqIds": [],
           "enableIds": []
         },
@@ -649,6 +675,7 @@
             "icon": "👁"
           },
           "flavour": "Bats and dolphins independently evolved this sonar ability using completely different anatomical structures",
+          "description": "Using reflected sound waves to navigate and hunt",
           "prereqIds": [
             "E06"
           ],
@@ -672,6 +699,7 @@
             "icon": "👁"
           },
           "flavour": "The complex folds of the outer ear help pinpoint sound direction in three dimensions",
+          "description": "Outer ear flaps collecting and directing sound",
           "prereqIds": [
             "E06"
           ],
@@ -695,6 +723,7 @@
             "icon": "👁"
           },
           "flavour": "Each whisker has its own dedicated section of the brain for processing touch information",
+          "description": "Touch-sensitive hairs detecting nearby objects",
           "prereqIds": [
             "M10"
           ],
@@ -718,6 +747,7 @@
             "icon": "👁"
           },
           "flavour": "Most mammals lost color vision, but primates regained it to spot ripe fruit",
+          "description": "Color vision using three types of cone cells",
           "prereqIds": [
             "E02"
           ],
@@ -741,6 +771,7 @@
             "icon": "👁"
           },
           "flavour": "This tiny pit in the retina is packed with color-detecting cones for sharp central vision",
+          "description": "Eye spot with highest visual sharpness",
           "prereqIds": [
             "E02"
           ],
@@ -764,6 +795,7 @@
             "icon": "👁"
           },
           "flavour": "Many animals can sense Earth's magnetic field, though the exact mechanism remains mysterious",
+          "description": "Sensing Earth's magnetic field for navigation",
           "prereqIds": [],
           "enableIds": []
         },
@@ -785,6 +817,7 @@
             "icon": "🥚"
           },
           "flavour": "Mixing genes from two parents creates genetic diversity that helps populations adapt",
+          "description": "Offspring from two parents combining genetic material",
           "prereqIds": [],
           "enableIds": []
         },
@@ -806,6 +839,7 @@
             "icon": "🥚"
           },
           "flavour": "Eggs are large and nutrient-rich while sperm are tiny and numerous, a fundamental asymmetry driving sexual selection",
+          "description": "Distinct egg and sperm cell types",
           "prereqIds": [
             "R01"
           ],
@@ -829,6 +863,7 @@
             "icon": "🥚"
           },
           "flavour": "Broadcasting millions of eggs and sperm into the water is energetically cheap but wasteful",
+          "description": "Eggs fertilized outside the body in water",
           "prereqIds": [
             "R02"
           ],
@@ -852,6 +887,7 @@
             "icon": "🥚"
           },
           "flavour": "Mating directly increases the chance that sperm meets egg but requires complex anatomical adaptations",
+          "description": "Sperm meets egg inside female body",
           "prereqIds": [
             "R02"
           ],
@@ -875,6 +911,7 @@
             "icon": "🥚"
           },
           "flavour": "These structures evolved independently in many lineages, from insects to mammals",
+          "description": "Specialized structures transferring sperm during mating",
           "prereqIds": [
             "R04"
           ],
@@ -898,6 +935,7 @@
             "icon": "🥚"
           },
           "flavour": "This pleasure response likely evolved to motivate mating behavior in species with internal fertilization",
+          "description": "Peak sexual pleasure reinforcing mating behavior",
           "prereqIds": [
             "R05"
           ],
@@ -921,6 +959,7 @@
             "icon": "🥚"
           },
           "flavour": "The shell and membranes create a self-contained aquatic environment, freeing reproduction from water",
+          "description": "Shelled egg with protective membranes for land",
           "prereqIds": [
             "R04"
           ],
@@ -944,6 +983,7 @@
             "icon": "🥚"
           },
           "flavour": "Giving birth to live young evolved independently in fish, reptiles, and mammals",
+          "description": "Giving birth to live young instead of eggs",
           "prereqIds": [
             "R04"
           ],
@@ -967,6 +1007,7 @@
             "icon": "🥚"
           },
           "flavour": "This simple placenta transfers nutrients from a yolk sac rather than directly from maternal blood",
+          "description": "Simple placenta nourishing embryo from yolk reserves",
           "prereqIds": [
             "R08"
           ],
@@ -990,6 +1031,7 @@
             "icon": "🥚"
           },
           "flavour": "These modified sweat glands provide custom-tailored nutrition that changes as offspring grow",
+          "description": "Organs producing milk to feed young",
           "prereqIds": [
             "R08"
           ],
@@ -1013,6 +1055,7 @@
             "icon": "🥚"
           },
           "flavour": "Monotremes like platypuses lack nipples and instead secrete milk through pores in the skin",
+          "description": "Teats delivering milk to nursing offspring",
           "prereqIds": [
             "R10"
           ],
@@ -1036,6 +1079,7 @@
             "icon": "🥚"
           },
           "flavour": "The intimate connection between maternal and fetal blood supplies allows extended development",
+          "description": "Organ exchanging nutrients between mother and developing embryo",
           "prereqIds": [
             "R08"
           ],
@@ -1059,6 +1103,7 @@
             "icon": "🥚"
           },
           "flavour": "This temporary tooth or scale helps hatchlings break through their shell and is later shed",
+          "description": "Temporary tooth or spike breaking eggshell during hatching",
           "prereqIds": [
             "R07"
           ],
@@ -1082,6 +1127,7 @@
             "icon": "🥚"
           },
           "flavour": "Some fish, insects, and birds create elaborate structures to protect eggs and young",
+          "description": "Constructing protective structure for eggs or young",
           "prereqIds": [
             "R07"
           ],
@@ -1105,6 +1151,7 @@
             "icon": "🥚"
           },
           "flavour": "Only a few mammal species menstruate; most reabsorb the uterine lining instead",
+          "description": "Monthly reproductive hormone cycle preparing for pregnancy",
           "prereqIds": [
             "R12"
           ],
@@ -1128,6 +1175,7 @@
             "icon": "🥚"
           },
           "flavour": "Extended post-reproductive life is rare in nature and may have evolved to support grandchildren",
+          "description": "Permanent end of reproductive fertility with aging",
           "prereqIds": [
             "R15"
           ],
@@ -1151,6 +1199,7 @@
             "icon": "🔥"
           },
           "flavour": "Using oxygen to burn fuel generates far more energy than anaerobic metabolism",
+          "description": "Using oxygen to extract energy from food",
           "prereqIds": [],
           "enableIds": []
         },
@@ -1172,6 +1221,7 @@
             "icon": "🔥"
           },
           "flavour": "The specialized regions of the gut allow sequential processing of food",
+          "description": "Tube processing food from mouth to anus",
           "prereqIds": [
             "S01"
           ],
@@ -1195,6 +1245,7 @@
             "icon": "🔥"
           },
           "flavour": "A separate waste exit allows continuous one-way food processing",
+          "description": "Opening expelling solid waste from digestive system",
           "prereqIds": [
             "M02"
           ],
@@ -1218,6 +1269,7 @@
             "icon": "🔥"
           },
           "flavour": "Intestinal gas is produced by gut bacteria fermenting undigested food",
+          "description": "Releasing intestinal gas through anus",
           "prereqIds": [
             "M03"
           ],
@@ -1241,6 +1293,7 @@
             "icon": "🔥"
           },
           "flavour": "These feathery structures maximize surface area for extracting dissolved oxygen from water",
+          "description": "Organs extracting oxygen from water",
           "prereqIds": [
             "M01"
           ],
@@ -1264,6 +1317,7 @@
             "icon": "🔥"
           },
           "flavour": "This gas-filled organ evolved from a primitive lung and controls buoyancy",
+          "description": "Gas-filled sac controlling buoyancy in water",
           "prereqIds": [
             "M05"
           ],
@@ -1287,6 +1341,7 @@
             "icon": "🔥"
           },
           "flavour": "Air-breathing organs evolved from outpocketings of the digestive tract",
+          "description": "Air-filled organs extracting oxygen from air",
           "prereqIds": [
             "M06"
           ],
@@ -1310,6 +1365,7 @@
             "icon": "🔥"
           },
           "flavour": "Complete separation of oxygen-rich and oxygen-poor blood maximizes metabolic efficiency",
+          "description": "Heart with four separate pumping chambers",
           "prereqIds": [],
           "enableIds": []
         },
@@ -1331,6 +1387,7 @@
             "icon": "🔥"
           },
           "flavour": "Maintaining constant body temperature allows activity in cold environments but requires enormous energy",
+          "description": "Maintaining constant warm body temperature internally",
           "prereqIds": [
             "M08"
           ],
@@ -1354,6 +1411,7 @@
             "icon": "🔥"
           },
           "flavour": "Each strand is dead keratin produced by a living follicle buried in the skin",
+          "description": "Protein filaments insulating skin",
           "prereqIds": [
             "M09"
           ],
@@ -1377,6 +1435,7 @@
             "icon": "🔥"
           },
           "flavour": "These complex structures are modified scales that provide insulation and enable flight",
+          "description": "Complex branched structures providing insulation and flight surfaces",
           "prereqIds": [
             "M09"
           ],
@@ -1400,6 +1459,7 @@
             "icon": "🔥"
           },
           "flavour": "Evaporative cooling allows sustained running in hot conditions, a key human hunting adaptation",
+          "description": "Skin glands secreting fluid for evaporative cooling",
           "prereqIds": [
             "M09"
           ],
@@ -1423,6 +1483,7 @@
             "icon": "🔥"
           },
           "flavour": "This specialized tissue generates heat by burning fat without producing ATP",
+          "description": "Special fat tissue generating body heat",
           "prereqIds": [
             "M09"
           ],
@@ -1446,6 +1507,7 @@
             "icon": "🔥"
           },
           "flavour": "Multiple stomach chambers and symbiotic microbes allow herbivores to digest cellulose",
+          "description": "Multi-stomach system fermenting and digesting plant matter",
           "prereqIds": [
             "M02"
           ],
@@ -1469,6 +1531,7 @@
             "icon": "🔥"
           },
           "flavour": "Dropping body temperature dramatically reduces energy needs during food scarcity",
+          "description": "Drastically lowering metabolism to conserve energy",
           "prereqIds": [
             "M09"
           ],
@@ -1492,6 +1555,7 @@
             "icon": "🔥"
           },
           "flavour": "This enzyme system originally evolved to process fermented fruit",
+          "description": "Breaking down ethanol from fermented foods",
           "prereqIds": [],
           "enableIds": []
         },
@@ -1513,6 +1577,7 @@
             "icon": "🧠"
           },
           "flavour": "These specialized cells use electrical and chemical signals to transmit information rapidly",
+          "description": "Specialized cells transmitting electrical signals",
           "prereqIds": [
             "S01"
           ],
@@ -1536,6 +1601,7 @@
             "icon": "🧠"
           },
           "flavour": "Concentrating sense organs and processing power at the front end creates a head",
+          "description": "Concentration of sense organs and nerves at head",
           "prereqIds": [
             "S02"
           ],
@@ -1561,6 +1627,7 @@
             "icon": "🧠"
           },
           "flavour": "This centralized command center allows complex processing and coordinated responses",
+          "description": "Central organ processing information and controlling behavior",
           "prereqIds": [
             "N02"
           ],
@@ -1584,6 +1651,7 @@
             "icon": "🧠"
           },
           "flavour": "This structure coordinates movement and maintains balance, making athletic feats possible",
+          "description": "Brain region coordinating movement and balance",
           "prereqIds": [
             "N03"
           ],
@@ -1607,6 +1675,7 @@
             "icon": "🧠"
           },
           "flavour": "This vulnerable state is universal in animals with nervous systems, suggesting vital restorative functions",
+          "description": "Resting state with reduced consciousness and activity",
           "prereqIds": [
             "N03"
           ],
@@ -1630,6 +1699,7 @@
             "icon": "🧠"
           },
           "flavour": "The brain is highly active during this phase, and most vivid dreaming occurs here",
+          "description": "Sleep phase with rapid eye movements and vivid dreams",
           "prereqIds": [
             "N05"
           ],
@@ -1653,6 +1723,7 @@
             "icon": "🧠"
           },
           "flavour": "This ancient brain region generates emotions and motivation",
+          "description": "Brain circuits processing emotions and memories",
           "prereqIds": [
             "N03"
           ],
@@ -1676,6 +1747,7 @@
             "icon": "🧠"
           },
           "flavour": "Juvenile play helps develop physical and social skills in a safe context",
+          "description": "Non-serious activity practicing skills and social bonds",
           "prereqIds": [
             "N07"
           ],
@@ -1701,6 +1773,7 @@
             "icon": "🧠"
           },
           "flavour": "This wrinkled outer brain layer handles abstract thought, planning, and language",
+          "description": "Outer brain layer handling complex thought",
           "prereqIds": [
             "N03"
           ],
@@ -1724,6 +1797,7 @@
             "icon": "🧠"
           },
           "flavour": "The human brain is not simply larger but has a vastly expanded outer layer",
+          "description": "Enlargement of brain regions for advanced cognition",
           "prereqIds": [
             "N09"
           ],
@@ -1747,6 +1821,7 @@
             "icon": "🧠"
           },
           "flavour": "Most animals inherit their calls, but humans, songbirds, and some cetaceans learn vocalizations culturally",
+          "description": "Ability to imitate and produce new sounds",
           "prereqIds": [
             "N03"
           ],
@@ -1770,6 +1845,7 @@
             "icon": "🧠"
           },
           "flavour": "The recursive grammar that allows infinite expression from finite elements appears unique to humans",
+          "description": "Symbolic communication system with grammar and meaning",
           "prereqIds": [
             "N11"
           ],
@@ -1838,6 +1914,7 @@
             "icon": "🌀"
           },
           "flavour": "These simple cells lack a nucleus and dominated Earth for billions of years",
+          "description": "Simple cell lacking nucleus and membrane-bound organelles",
           "prereqIds": [],
           "enableIds": []
         },
@@ -1859,6 +1936,7 @@
             "icon": "🌀"
           },
           "flavour": "The nucleus and organelles arose when one cell engulfed another in an ancient symbiosis",
+          "description": "Complex cell with nucleus containing genetic material",
           "prereqIds": [
             "B01"
           ],
@@ -1882,6 +1960,7 @@
             "icon": "🌀"
           },
           "flavour": "The same innovation evolved independently at least twenty-five different times across the tree of life",
+          "description": "Organism made of multiple cells working together as one",
           "prereqIds": [
             "B02"
           ],
@@ -1905,6 +1984,7 @@
             "icon": "🌀"
           },
           "flavour": "Volvox colonies show division of labor, with some cells specialized for reproduction",
+          "description": "Groups of identical cells living together",
           "prereqIds": [
             "B03"
           ],
@@ -1928,6 +2008,7 @@
             "icon": "🌀"
           },
           "flavour": "A body plan with parts arranged around a central axis, like a wheel",
+          "description": "Body parts arranged around central axis like wheel spokes",
           "prereqIds": [
             "B03"
           ],
@@ -1953,6 +2034,7 @@
             "icon": "🌀"
           },
           "flavour": "This body plan enabled animals to develop a front and back, revolutionizing movement and sensory organization",
+          "description": "Body with left and right mirror-image sides",
           "prereqIds": [
             "B03"
           ],
@@ -1976,6 +2058,7 @@
             "icon": "🌀"
           },
           "flavour": "This fluid-filled space cushions internal organs and allows them to move independently",
+          "description": "Fluid-filled space between body wall and gut",
           "prereqIds": [
             "B06"
           ],
@@ -1999,6 +2082,7 @@
             "icon": "🌀"
           },
           "flavour": "Repeating body units allowed evolutionary tinkering with specialized segments",
+          "description": "Body divided into repeating similar units",
           "prereqIds": [
             "B06"
           ],
@@ -2022,6 +2106,7 @@
             "icon": "🌀"
           },
           "flavour": "Concentrating sense organs and processing power at the front end creates a head",
+          "description": "Concentration of sense organs and nerves at head",
           "prereqIds": [
             "B06"
           ],
@@ -2045,6 +2130,7 @@
             "icon": "🌀"
           },
           "flavour": "This flexible rod of cells provides support and serves as a blueprint for the spine",
+          "description": "Flexible rod supporting body along head-to-tail axis",
           "prereqIds": [
             "B06"
           ],
@@ -2070,6 +2156,7 @@
             "icon": "🌀"
           },
           "flavour": "Fusion of body segments into functional units like head, thorax, and abdomen",
+          "description": "Specialized body segments forming distinct regions",
           "prereqIds": [
             "B08"
           ],
@@ -2093,6 +2180,7 @@
             "icon": "🌀"
           },
           "flavour": "These throat openings evolved for filter feeding but were later modified into gills",
+          "description": "Openings in throat wall for filter feeding",
           "prereqIds": [
             "B10"
           ],
@@ -2119,6 +2207,7 @@
             "icon": "🌀"
           },
           "flavour": "A muscular tail extending beyond the anus provides swimming power",
+          "description": "Tail extending beyond anus for propulsion",
           "prereqIds": [
             "B10"
           ],
@@ -2142,6 +2231,7 @@
             "icon": "🌀"
           },
           "flavour": "The segmented backbone allows flexibility while protecting the spinal cord",
+          "description": "Chain of bone segments protecting spinal cord",
           "prereqIds": [
             "B10"
           ],
@@ -2165,6 +2255,7 @@
             "icon": "🌀"
           },
           "flavour": "This bony or cartilaginous case protects the brain and supports sense organs",
+          "description": "Bony case protecting brain and sense organs",
           "prereqIds": [
             "B09"
           ],
@@ -2188,6 +2279,7 @@
             "icon": "🌀"
           },
           "flavour": "This bony cage protects vital organs while allowing the lungs to expand and contract",
+          "description": "Bone cage protecting heart and lungs",
           "prereqIds": [
             "B14"
           ],
@@ -2211,6 +2303,7 @@
             "icon": "?"
           },
           "flavour": "This rigid outer layer provides structural support in bacteria, plants, and fungi",
+          "description": "Rigid outer layer protecting and supporting cell",
           "prereqIds": [],
           "enableIds": []
         },
@@ -2232,6 +2325,7 @@
             "icon": "?"
           },
           "flavour": "This fibrous protein provides strength and flexibility to animal tissues",
+          "description": "Protein network providing structural support to tissues",
           "prereqIds": [
             "B03"
           ],
@@ -2255,6 +2349,7 @@
             "icon": "?"
           },
           "flavour": "These tiny skeletal elements provide support in sponges and some other simple animals",
+          "description": "Tiny mineral needles reinforcing soft tissues",
           "prereqIds": [
             "A02"
           ],
@@ -2278,6 +2373,7 @@
             "icon": "?"
           },
           "flavour": "This tough polysaccharide forms insect exoskeletons and fungal cell walls",
+          "description": "Tough polysaccharide forming arthropod exoskeletons",
           "prereqIds": [
             "B03"
           ],
@@ -2303,6 +2399,7 @@
             "icon": "?"
           },
           "flavour": "Incorporating calcium carbonate or calcium phosphate creates hard protective structures",
+          "description": "Hard mineral coating protecting soft body",
           "prereqIds": [
             "A04"
           ],
@@ -2326,6 +2423,7 @@
             "icon": "?"
           },
           "flavour": "Arthropods must molt their rigid outer shell to grow, leaving them temporarily vulnerable",
+          "description": "Hard external skeleton protecting soft body tissues",
           "prereqIds": [
             "A04"
           ],
@@ -2349,6 +2447,7 @@
             "icon": "?"
           },
           "flavour": "These defensive structures deter predators and can aid in movement",
+          "description": "Sharp projections deterring predators",
           "prereqIds": [
             "A06"
           ],
@@ -2372,6 +2471,7 @@
             "icon": "?"
           },
           "flavour": "Many soft-bodied animals roll into a ball to protect vulnerable parts",
+          "description": "Rolling body into protective ball",
           "prereqIds": [
             "A06"
           ],
@@ -2395,6 +2495,7 @@
             "icon": "?"
           },
           "flavour": "Cephalopods eject dark fluid to confuse predators and escape",
+          "description": "Organ squirting dark cloud to confuse predators",
           "prereqIds": [
             "B07"
           ],
@@ -2418,6 +2519,7 @@
             "icon": "?"
           },
           "flavour": "These tooth-like scales reduce drag and protect shark skin",
+          "description": "Tooth-like scales covering skin for protection",
           "prereqIds": [],
           "enableIds": []
         },
@@ -2439,6 +2541,7 @@
             "icon": "?"
           },
           "flavour": "Heavy armor provides excellent protection but reduces swimming speed",
+          "description": "Thick armored panels covering body",
           "prereqIds": [
             "A10"
           ],
@@ -2462,6 +2565,7 @@
             "icon": "?"
           },
           "flavour": "Overlapping scales combine protection with flexibility",
+          "description": "Overlapping bony shields protecting skin",
           "prereqIds": [],
           "enableIds": []
         },
@@ -2483,6 +2587,7 @@
             "icon": "?"
           },
           "flavour": "Modified salivary glands produce toxic cocktails for hunting or defense",
+          "description": "Organs producing toxic chemicals for defense",
           "prereqIds": [],
           "enableIds": []
         },
@@ -2504,6 +2609,7 @@
             "icon": "?"
           },
           "flavour": "Chromatophores can rapidly change color and pattern for concealment",
+          "description": "Skin cells changing color to match surroundings",
           "prereqIds": [],
           "enableIds": []
         },
@@ -2525,6 +2631,7 @@
             "icon": "🌊"
           },
           "flavour": "This whip-like appendage rotates like a propeller to move cells",
+          "description": "Whip-like tail propelling cell through fluid",
           "prereqIds": [
             "B01"
           ],
@@ -2548,6 +2655,7 @@
             "icon": "🌊"
           },
           "flavour": "These tiny hair-like structures beat in coordinated waves to move fluids or propel cells",
+          "description": "Tiny beating hairs moving fluid or cell",
           "prereqIds": [
             "B01"
           ],
@@ -2573,6 +2681,7 @@
             "icon": "🌊"
           },
           "flavour": "Fluid-filled chambers provide support and enable movement without a skeleton",
+          "description": "Moving by squeezing fluid-filled body compartments",
           "prereqIds": [
             "B03"
           ],
@@ -2598,6 +2707,7 @@
             "icon": "🌊"
           },
           "flavour": "Squids and octopuses forcefully expel water to swim backward rapidly",
+          "description": "Shooting water backward for rapid forward thrust",
           "prereqIds": [
             "B07"
           ],
@@ -2621,6 +2731,7 @@
             "icon": "🌊"
           },
           "flavour": "Articulated segments connected by flexible joints enable complex movements",
+          "description": "Legs with flexible joints for walking",
           "prereqIds": [
             "A06"
           ],
@@ -2644,6 +2755,7 @@
             "icon": "🌊"
           },
           "flavour": "These two-branched appendages can simultaneously swim and walk",
+          "description": "Two-branched limbs for both swimming and walking",
           "prereqIds": [
             "L05"
           ],
@@ -2667,6 +2779,7 @@
             "icon": "🌊"
           },
           "flavour": "Fleshy paddle-like structures on each segment aid in swimming and respiration",
+          "description": "Paired paddle-like flaps aiding swimming",
           "prereqIds": [
             "B08"
           ],
@@ -2690,6 +2803,7 @@
             "icon": "🌊"
           },
           "flavour": "These hydraulic structures allow echinoderms to grip surfaces and move slowly",
+          "description": "Suction-cupped feet for gripping and walking",
           "prereqIds": [
             "B07"
           ],
@@ -2713,6 +2827,7 @@
             "icon": "🌊"
           },
           "flavour": "Matched fins on each side provide stability and steering",
+          "description": "Left and right fins controlling steering",
           "prereqIds": [
             "B14"
           ],
@@ -2736,6 +2851,7 @@
             "icon": "🌊"
           },
           "flavour": "These muscular, bone-supported fins were pre-adaptations that made walking on land possible",
+          "description": "Muscular, fleshy fins with internal bones",
           "prereqIds": [
             "L09"
           ],
@@ -2761,6 +2877,7 @@
             "icon": "🌊"
           },
           "flavour": "All tetrapod limbs share the same basic bone pattern despite wildly different functions",
+          "description": "Paired appendages for walking or grasping (tetrapod limbs)",
           "prereqIds": [
             "L10"
           ],
@@ -2784,6 +2901,7 @@
             "icon": "🌊"
           },
           "flavour": "",
+          "description": "Fingers or toes at limb ends",
           "prereqIds": [
             "L11"
           ],
@@ -2807,6 +2925,7 @@
             "icon": "🌊"
           },
           "flavour": "These structures evolved from gill-like extensions and allow powered flight",
+          "description": "Membrane appendages for powered flight",
           "prereqIds": [
             "L05"
           ],
@@ -2830,6 +2949,7 @@
             "icon": "🌊"
           },
           "flavour": "Limbs projecting sideways produce a waddling walk seen in reptiles",
+          "description": "Walking with limbs angled out to sides",
           "prereqIds": [
             "L11"
           ],
@@ -2853,6 +2973,7 @@
             "icon": "🦷"
           },
           "flavour": "Cells engulf particles or other cells by wrapping membrane around them",
+          "description": "Cell engulfing food particles whole",
           "prereqIds": [
             "B01"
           ],
@@ -2876,6 +2997,7 @@
             "icon": "🦷"
           },
           "flavour": "Straining tiny food particles from water is an ancient and efficient feeding strategy",
+          "description": "Straining tiny food particles from water",
           "prereqIds": [
             "L02"
           ],
@@ -2899,6 +3021,7 @@
             "icon": "🦷"
           },
           "flavour": "A internal space where enzymes break down food externally to cells",
+          "description": "Internal pouch breaking down food",
           "prereqIds": [
             "B03"
           ],
@@ -2922,6 +3045,7 @@
             "icon": "🦷"
           },
           "flavour": "A tubular digestive system with mouth and anus enables continuous feeding",
+          "description": "Digestive tube with separate mouth and anus",
           "prereqIds": [
             "B07"
           ],
@@ -2945,6 +3069,7 @@
             "icon": "🦷"
           },
           "flavour": "A separate waste exit allows continuous one-way food processing",
+          "description": "Opening expelling solid waste from digestive system",
           "prereqIds": [
             "F04"
           ],
@@ -2968,6 +3093,7 @@
             "icon": "🦷"
           },
           "flavour": "This ribbon of tiny teeth rasps algae from rocks or drills through shells",
+          "description": "Ribbon of tiny teeth scraping food",
           "prereqIds": [],
           "enableIds": [
             "F10"
@@ -2991,6 +3117,7 @@
             "icon": "🦷"
           },
           "flavour": "These jaw-like structures bite and grind food in arthropods",
+          "description": "Paired jaws for crushing and cutting",
           "prereqIds": [
             "A06"
           ],
@@ -3014,6 +3141,7 @@
             "icon": "🦷"
           },
           "flavour": "An extendable tubular mouthpart for piercing, sucking, or probing",
+          "description": "Tubular mouthpart for piercing or sucking",
           "prereqIds": [
             "B09"
           ],
@@ -3037,6 +3165,7 @@
             "icon": "🦷"
           },
           "flavour": "Flexible appendages for grasping, manipulating, or sensing",
+          "description": "Long flexible arms capturing prey",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3058,6 +3187,7 @@
             "icon": "🦷"
           },
           "flavour": "Lampreys use this tongue like a rasp to bore into fish flesh",
+          "description": "Rough tongue scraping algae or tissue",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3079,6 +3209,7 @@
             "icon": "🦷"
           },
           "flavour": "This innovation transformed filter-feeders into predators and opened up entirely new ecological niches",
+          "description": "Hinged mouth parts for grasping and biting",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3100,6 +3231,7 @@
             "icon": "🦷"
           },
           "flavour": "Hard mineralized structures for gripping, cutting, or grinding",
+          "description": "Hard mineralized structures for gripping, cutting, or grinding",
           "prereqIds": [
             "F11"
           ],
@@ -3123,6 +3255,7 @@
             "icon": "🦷"
           },
           "flavour": "A second set of jaws deep in the throat for processing food",
+          "description": "Teeth in throat for secondary food processing",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3144,6 +3277,7 @@
             "icon": "🦷"
           },
           "flavour": "",
+          "description": "Movable tongue manipulating food in mouth",
           "prereqIds": [
             "F11"
           ],
@@ -3167,6 +3301,7 @@
             "icon": "💨"
           },
           "flavour": "Using oxygen to burn fuel generates far more energy than anaerobic metabolism",
+          "description": "Using oxygen to extract energy from food",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3188,6 +3323,7 @@
             "icon": "💨"
           },
           "flavour": "Small organisms absorb oxygen directly through their skin",
+          "description": "Gas exchange directly through skin surface",
           "prereqIds": [
             "B03"
           ],
@@ -3211,6 +3347,7 @@
             "icon": "💨"
           },
           "flavour": "Feathery gills provide large surface area but are vulnerable to damage",
+          "description": "Feathery breathing organs exposed to water",
           "prereqIds": [
             "B07"
           ],
@@ -3234,6 +3371,7 @@
             "icon": "💨"
           },
           "flavour": "Protected gills inside the body cavity reduce damage while breathing",
+          "description": "Protected gills inside body chamber",
           "prereqIds": [
             "B12"
           ],
@@ -3257,6 +3395,7 @@
             "icon": "💨"
           },
           "flavour": "Stacked gill lamellae resemble pages in a book and are found in horseshoe crabs",
+          "description": "Layered gill plates resembling book pages",
           "prereqIds": [
             "A06"
           ],
@@ -3280,6 +3419,7 @@
             "icon": "💨"
           },
           "flavour": "Modified gills adapted for breathing air in spiders and scorpions",
+          "description": "Stacked air-filled chambers for breathing air",
           "prereqIds": [
             "R05"
           ],
@@ -3303,6 +3443,7 @@
             "icon": "💨"
           },
           "flavour": "Branching air tubes deliver oxygen directly to tissues in insects",
+          "description": "Network of tubes delivering air throughout body",
           "prereqIds": [
             "A06"
           ],
@@ -3326,6 +3467,7 @@
             "icon": "💨"
           },
           "flavour": "This gas-filled organ evolved from a primitive lung and controls buoyancy",
+          "description": "Gas-filled sac controlling buoyancy in water",
           "prereqIds": [
             "R04"
           ],
@@ -3349,6 +3491,7 @@
             "icon": "💨"
           },
           "flavour": "Air-breathing organs evolved from outpocketings of the digestive tract",
+          "description": "Air-filled organs extracting oxygen from air",
           "prereqIds": [
             "R08"
           ],
@@ -3372,6 +3515,7 @@
             "icon": "💨"
           },
           "flavour": "Many amphibians absorb oxygen directly through moist skin",
+          "description": "Breathing through moist permeable skin",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3393,6 +3537,7 @@
             "icon": "🥚"
           },
           "flavour": "A simple cell splits into two identical daughter cells",
+          "description": "Cell splitting into two identical daughter cells",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3414,6 +3559,7 @@
             "icon": "🥚"
           },
           "flavour": "Mixing genes from two parents creates genetic diversity that helps populations adapt",
+          "description": "Offspring from two parents combining genetic material",
           "prereqIds": [
             "B02"
           ],
@@ -3437,6 +3583,7 @@
             "icon": "🥚"
           },
           "flavour": "Eggs are large and nutrient-rich while sperm are tiny and numerous, a fundamental asymmetry driving sexual selection",
+          "description": "Distinct egg and sperm cell types",
           "prereqIds": [
             "P02"
           ],
@@ -3460,6 +3607,7 @@
             "icon": "🥚"
           },
           "flavour": "Broadcasting millions of eggs and sperm into the water is energetically cheap but wasteful",
+          "description": "Eggs fertilized outside the body in water",
           "prereqIds": [
             "P03"
           ],
@@ -3483,6 +3631,7 @@
             "icon": "🥚"
           },
           "flavour": "A distinct juvenile form allows dispersal and reduces competition with adults",
+          "description": "Immature form transforming into adult through metamorphosis",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3504,6 +3653,7 @@
             "icon": "🥚"
           },
           "flavour": "Mating directly increases the chance that sperm meets egg but requires complex anatomical adaptations",
+          "description": "Sperm meets egg inside female body",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3525,6 +3675,7 @@
             "icon": "🥚"
           },
           "flavour": "The shell and membranes create a self-contained aquatic environment, freeing reproduction from water",
+          "description": "Shelled egg with protective membranes for land",
           "prereqIds": [
             "P06"
           ],
@@ -3548,6 +3699,7 @@
             "icon": "🥚"
           },
           "flavour": "Protecting and provisioning offspring increases their survival",
+          "description": "Adults protecting or feeding their offspring",
           "prereqIds": [],
           "enableIds": []
         }
@@ -3619,6 +3771,7 @@
             "icon": "👁"
           },
           "flavour": "This X-linked trait is far more common in males than females",
+          "description": "Cannot distinguish red from green hues",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3640,6 +3793,7 @@
             "icon": "👁"
           },
           "flavour": "This rare form affects the short-wavelength cones in the retina",
+          "description": "Cannot distinguish blue from yellow hues",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3661,6 +3815,7 @@
             "icon": "👁"
           },
           "flavour": "Some women have four types of color cones instead of three, potentially seeing millions more colors",
+          "description": "Seeing four primary colors instead of three",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3682,6 +3837,7 @@
             "icon": "👁"
           },
           "flavour": "Supertasters have more taste buds and find bitter compounds intensely unpleasant",
+          "description": "Intensely tasting bitter compounds",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3703,6 +3859,7 @@
             "icon": "👁"
           },
           "flavour": "Some people cannot taste certain bitter compounds that others find overwhelming",
+          "description": "Unable to detect bitter PTC chemical",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3724,6 +3881,7 @@
             "icon": "👁"
           },
           "flavour": "A genetic variant makes cilantro taste like soap or metal to some people",
+          "description": "Perceiving cilantro herb as soapy-tasting",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3745,6 +3903,7 @@
             "icon": "👁"
           },
           "flavour": "Only some people can smell the distinctive odor in urine after eating asparagus",
+          "description": "Detecting distinct odor in urine after eating asparagus",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3766,6 +3925,7 @@
             "icon": "👁"
           },
           "flavour": "Bright light triggers sneezing in people with this autosomal dominant trait",
+          "description": "Sneezing triggered by bright light",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3787,6 +3947,7 @@
             "icon": "👁"
           },
           "flavour": "Rare mutations can eliminate the sensation of pain entirely, which is extremely dangerous",
+          "description": "Reduced ability to feel physical pain",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3808,6 +3969,7 @@
             "icon": "👁"
           },
           "flavour": "",
+          "description": "Heightened sensitivity to painful stimuli",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3829,6 +3991,7 @@
             "icon": "👁"
           },
           "flavour": "The ability to identify or produce musical notes without a reference is partly genetic",
+          "description": "Identifying musical notes without reference",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3850,6 +4013,7 @@
             "icon": "👁"
           },
           "flavour": "",
+          "description": "Difficulty perceiving musical pitch",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3871,6 +4035,7 @@
             "icon": "👁"
           },
           "flavour": "Mismatch between visual and vestibular signals triggers nausea in susceptible individuals",
+          "description": "Nausea from conflicting balance and visual signals",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3892,6 +4057,7 @@
             "icon": "👁"
           },
           "flavour": "Certain sounds like chewing trigger intense emotional and physiological distress",
+          "description": "Strong negative reaction to specific sounds",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3913,6 +4079,7 @@
             "icon": "👁"
           },
           "flavour": "",
+          "description": "Extreme sensitivity to ordinary sound volumes",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3934,6 +4101,7 @@
             "icon": "👁"
           },
           "flavour": "",
+          "description": "Born unable to smell odors",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3955,6 +4123,7 @@
             "icon": "🍽"
           },
           "flavour": "The ability to digest milk sugar into adulthood evolved recently in dairy-farming populations",
+          "description": "Continued ability to digest milk sugar into adulthood",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3976,6 +4145,7 @@
             "icon": "🍽"
           },
           "flavour": "Losing the ability to produce lactase after weaning is the ancestral human condition",
+          "description": "Inability to digest milk sugar causing discomfort",
           "prereqIds": [],
           "enableIds": []
         },
@@ -3997,6 +4167,7 @@
             "icon": "🍽"
           },
           "flavour": "A deficiency in the enzyme that breaks down acetaldehyde causes facial redness when drinking",
+          "description": "Facial redness and discomfort when drinking alcohol",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4018,6 +4189,7 @@
             "icon": "🍽"
           },
           "flavour": "",
+          "description": "Rapid breakdown of alcohol in bloodstream",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4039,6 +4211,7 @@
             "icon": "🍽"
           },
           "flavour": "Certain HLA variants greatly increase the risk of immune reactions to gluten",
+          "description": "Genetic susceptibility to gluten-triggered immune reaction",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4060,6 +4233,7 @@
             "icon": "🍽"
           },
           "flavour": "",
+          "description": "Preferring bitter coffee taste",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4081,6 +4255,7 @@
             "icon": "🍽"
           },
           "flavour": "",
+          "description": "Producing smelly urine after eating asparagus",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4102,6 +4277,7 @@
             "icon": "🍽"
           },
           "flavour": "This gene determines whether blood group antigens appear in saliva and other secretions",
+          "description": "Producing blood antigens in saliva and mucus",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4123,6 +4299,7 @@
             "icon": "🍽"
           },
           "flavour": "",
+          "description": "Lacking blood antigens in body fluids",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4144,6 +4321,7 @@
             "icon": "🍽"
           },
           "flavour": "Gut bacteria composition and digestive enzyme levels influence gas production",
+          "description": "Increased intestinal gas production",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4165,6 +4343,7 @@
             "icon": "🍽"
           },
           "flavour": "Variations in capsaicin receptors affect how intensely people experience chili heat",
+          "description": "Reduced pain response to capsaicin in chili",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4186,6 +4365,7 @@
             "icon": "🍽"
           },
           "flavour": "",
+          "description": "Adverse reaction to monosodium glutamate",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4207,6 +4387,7 @@
             "icon": "🍽"
           },
           "flavour": "Some people poorly absorb fruit sugar, leading to digestive discomfort",
+          "description": "Difficulty absorbing fruit sugar from intestine",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4228,6 +4409,7 @@
             "icon": "🍽"
           },
           "flavour": "More copies of the amylase gene help digest starchy foods more efficiently",
+          "description": "Abundant enzyme breaking down starch efficiently",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4249,6 +4431,7 @@
             "icon": "⚡"
           },
           "flavour": "Rapid caffeine metabolism allows some people to drink coffee late without sleep disruption",
+          "description": "Rapid breakdown of caffeine in liver",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4270,6 +4453,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Prolonged caffeine effects from slow metabolism",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4291,6 +4475,7 @@
             "icon": "⚡"
           },
           "flavour": "This adaptation for food scarcity may increase obesity risk in modern environments",
+          "description": "Efficiently storing calories as fat",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4312,6 +4497,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Tendency toward lower body fat storage",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4333,6 +4519,7 @@
             "icon": "⚡"
           },
           "flavour": "Genetic variants affecting oxygen utilization influence endurance capacity",
+          "description": "Superior oxygen use during exercise",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4354,6 +4541,7 @@
             "icon": "⚡"
           },
           "flavour": "A variant that builds fast-twitch muscle fibers enhances explosive power",
+          "description": "Enhanced fast-twitch muscle fiber performance",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4375,6 +4563,7 @@
             "icon": "⚡"
           },
           "flavour": "Genetic variants affect how efficiently the body produces and uses vitamin D",
+          "description": "Effective vitamin D synthesis from sunlight",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4396,6 +4585,7 @@
             "icon": "⚡"
           },
           "flavour": "This common variant affects folate metabolism and homocysteine levels",
+          "description": "Reduced folate processing enzyme activity",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4417,6 +4607,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Excessive iron absorption from diet",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4438,6 +4629,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Reduced vitamin B12 uptake efficiency",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4459,6 +4651,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Genetic tendency toward elevated blood cholesterol",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4480,6 +4673,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Naturally low cholesterol levels",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4501,6 +4695,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Rapid breakdown of nicotine",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4522,6 +4717,7 @@
             "icon": "⚡"
           },
           "flavour": "",
+          "description": "Heightened response to cannabis compounds",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4543,6 +4739,7 @@
             "icon": "✨"
           },
           "flavour": "The dominant form produces sticky, wet earwax and stronger body odor",
+          "description": "Moist sticky earwax with body odor",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4564,6 +4761,7 @@
             "icon": "✨"
           },
           "flavour": "This recessive trait produces flaky earwax and reduced body odor",
+          "description": "Flaky dry earwax with less body odor",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4585,6 +4783,7 @@
             "icon": "✨"
           },
           "flavour": "Clusters of melanin appear in sun-exposed skin, especially in fair individuals",
+          "description": "Small brown spots on sun-exposed skin",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4606,6 +4805,7 @@
             "icon": "✨"
           },
           "flavour": "The MC1R variant reduces dark pigment production, creating red hair and fair skin",
+          "description": "Orange-red hair pigment",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4627,6 +4827,7 @@
             "icon": "✨"
           },
           "flavour": "A V-shaped hairline point shows autosomal dominant inheritance",
+          "description": "V-shaped hairline point on forehead",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4648,6 +4849,7 @@
             "icon": "✨"
           },
           "flavour": "Whether earlobes hang free or attach directly shows simple genetic inheritance",
+          "description": "Earlobes connected directly to head",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4669,6 +4871,7 @@
             "icon": "✨"
           },
           "flavour": "A dimple in the chin forms where the two sides of the jaw imperfectly fused",
+          "description": "Dimple or crease in chin",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4690,6 +4893,7 @@
             "icon": "✨"
           },
           "flavour": "These facial indentations form where facial muscles attach differently to skin",
+          "description": "Cheek indentations when smiling",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4711,6 +4915,7 @@
             "icon": "✨"
           },
           "flavour": "A single mutation near the OCA2 gene reduced melanin in the iris",
+          "description": "Light blue iris pigmentation",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4732,6 +4937,7 @@
             "icon": "✨"
           },
           "flavour": "This rare eye color results from low melanin combined with light scattering",
+          "description": "Rare green iris coloration",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4753,6 +4959,7 @@
             "icon": "✨"
           },
           "flavour": "Different colored eyes result from varied melanin distribution or mosaicism",
+          "description": "Different colored irises in each eye",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4774,6 +4981,7 @@
             "icon": "✨"
           },
           "flavour": "Hair growth patterns across the forehead are partly genetically determined",
+          "description": "Continuous eyebrow across forehead",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4795,6 +5003,7 @@
             "icon": "✨"
           },
           "flavour": "The EDAR variant increases hair shaft diameter and follicle density",
+          "description": "Dense hair shaft diameter",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4816,6 +5025,7 @@
             "icon": "✨"
           },
           "flavour": "This X-linked trait shows earlier onset when inherited from the mother's side",
+          "description": "Hereditary hair loss from scalp",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4837,6 +5047,7 @@
             "icon": "✨"
           },
           "flavour": "Premature graying runs in families and relates to melanocyte decline",
+          "description": "Premature loss of hair pigment",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4858,6 +5069,7 @@
             "icon": "✨"
           },
           "flavour": "",
+          "description": "Extra row of eyelashes",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4879,6 +5091,7 @@
             "icon": "🧠"
           },
           "flavour": "Clock gene variants influence whether you're most alert in morning or evening",
+          "description": "Naturally alert and energetic in morning hours",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4900,6 +5113,7 @@
             "icon": "🧠"
           },
           "flavour": "Evening chronotypes may have slightly longer circadian periods",
+          "description": "Peak alertness and energy in evening hours",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4921,6 +5135,7 @@
             "icon": "🧠"
           },
           "flavour": "Rare variants allow some people to function well on very little sleep",
+          "description": "Needing less sleep than average",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4942,6 +5157,7 @@
             "icon": "🧠"
           },
           "flavour": "",
+          "description": "Requiring more sleep than average",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4963,6 +5179,7 @@
             "icon": "🧠"
           },
           "flavour": "DRD4 variants influence exploratory behavior and risk-taking",
+          "description": "Strong drive for new experiences",
           "prereqIds": [],
           "enableIds": []
         },
@@ -4984,6 +5201,7 @@
             "icon": "🧠"
           },
           "flavour": "",
+          "description": "Preference for caution over uncertainty",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5005,6 +5223,7 @@
             "icon": "🧠"
           },
           "flavour": "Low MAOA activity may increase impulsivity and aggression, especially in males",
+          "description": "Variant linked to impulsive aggression",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5026,6 +5245,7 @@
             "icon": "🧠"
           },
           "flavour": "Oxytocin receptor variants influence social bonding and empathy",
+          "description": "Enhanced ability to understand others' emotions",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5047,6 +5267,7 @@
             "icon": "🧠"
           },
           "flavour": "Genetic variants in serotonin systems affect baseline mood and outlook",
+          "description": "Tendency toward positive expectations",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5068,6 +5289,7 @@
             "icon": "🧠"
           },
           "flavour": "",
+          "description": "Heightened worry and stress response",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5089,6 +5311,7 @@
             "icon": "🧠"
           },
           "flavour": "Multiple genetic variants affect dopamine signaling and attention regulation",
+          "description": "Genetic susceptibility to attention difficulties",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5110,6 +5333,7 @@
             "icon": "🧠"
           },
           "flavour": "",
+          "description": "Strong emotional response to others' pain",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5131,6 +5355,7 @@
             "icon": "🛡"
           },
           "flavour": "Sickle cell trait provides malaria protection but two copies cause disease",
+          "description": "Protection from malaria via sickle hemoglobin",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5152,6 +5377,7 @@
             "icon": "🛡"
           },
           "flavour": "The Duffy-negative blood type blocks a malaria parasite entry route",
+          "description": "Malaria resistance from altered blood receptor",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5173,6 +5399,7 @@
             "icon": "🛡"
           },
           "flavour": "",
+          "description": "Immune to common HIV strains",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5194,6 +5421,7 @@
             "icon": "🛡"
           },
           "flavour": "FUT2 non-secretors are resistant to the most common stomach flu strain",
+          "description": "Protection from stomach flu viruses",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5215,6 +5443,7 @@
             "icon": "🛡"
           },
           "flavour": "HLA-B27 increases risk of several autoimmune inflammatory conditions",
+          "description": "Increased susceptibility to self-attacking immunity",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5236,6 +5465,7 @@
             "icon": "🛡"
           },
           "flavour": "",
+          "description": "Genetic markers increasing gluten sensitivity risk",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5257,6 +5487,7 @@
             "icon": "🛡"
           },
           "flavour": "",
+          "description": "Powerful sneeze reflex clearing airways",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5278,6 +5509,7 @@
             "icon": "🛡"
           },
           "flavour": "Genetic variants in immune signaling increase allergic sensitization",
+          "description": "Prone to allergic immune overreactions",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5299,6 +5531,7 @@
             "icon": "🛡"
           },
           "flavour": "",
+          "description": "Strong fever when fighting infection",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5320,6 +5553,7 @@
             "icon": "🛡"
           },
           "flavour": "",
+          "description": "Reduced chronic inflammatory response",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5341,6 +5575,7 @@
             "icon": "🦴"
           },
           "flavour": "Height is highly polygenic with hundreds of contributing variants",
+          "description": "Genetic tendency toward greater height",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5362,6 +5597,7 @@
             "icon": "🦴"
           },
           "flavour": "",
+          "description": "Genetic tendency toward shorter height",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5383,6 +5619,7 @@
             "icon": "🦴"
           },
           "flavour": "Joint hypermobility results from variants affecting connective tissue",
+          "description": "Unusually flexible joints from elastic connective tissue",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5404,6 +5641,7 @@
             "icon": "🦴"
           },
           "flavour": "LRP5 variants can dramatically increase bone density and fracture resistance",
+          "description": "Extra-thick heavy bone mineral density",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5425,6 +5663,7 @@
             "icon": "🦴"
           },
           "flavour": "Low bone density has strong genetic components",
+          "description": "Genetic predisposition to weak brittle bones",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5446,6 +5685,7 @@
             "icon": "🦴"
           },
           "flavour": "Achilles tendon attachment point affects leverage and athletic performance",
+          "description": "Muscle attachment points optimized for power",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5467,6 +5707,7 @@
             "icon": "🦴"
           },
           "flavour": "A longer Achilles tendon may enhance running economy",
+          "description": "Extended Achilles tendon improving running efficiency",
           "prereqIds": [],
           "enableIds": []
         },
@@ -5488,6 +5729,7 @@
             "icon": "🦴"
           },
           "flavour": "The second toe is longer than the big toe in this variant foot structure",
+          "description": "Second toe longer than big toe",
           "prereqIds": [],
           "enableIds": []
         }
